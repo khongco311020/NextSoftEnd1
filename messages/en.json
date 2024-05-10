@@ -1,0 +1,39 @@
+{
+  "IndexPage": {
+    "title": "next-intl example",
+    "description": "Welcome to the Next.js Internationalization (i18n) example! This demo showcases the power of the App Router and how to manage multilingual content seamlessly using next-intl."
+  },
+  "NotFoundPage": {
+    "title": "Page Not Found",
+    "description": "Oops! It seems like you've stumbled upon a page that doesn't exist. Don't worry, our internationalization magic is still hard at work on other parts of the app. Feel free to navigate back to explore more!"
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "blog": "Blog",
+    "activities": "Activities"
+  },
+  "Footer": {
+    "copyright": " © SkyNextSoft, JSC 2024. All rights reserved."
+  },
+
+  "AboutPage": {
+    "title": "About Page",
+    "description": "Description about the about page",
+    "companyName": "Skynext Soft",
+    "companyDescription": "We create bigger, bolder, braver, and better digital ideas. We believe in the flexibility and precision of great ideas. We are the best financial solution provider and consultant in the world. Diverse software and web development services.",
+    "workplace": "Workplace for a diverse group of experts and engineers",
+    "scale": "Scale of 200 personnel and 100% of projects are React-based",
+    "training": "Place to organize free training courses, events on React with domestic and international experts",
+    "visionTitle": "Vision",
+    "visionDescription": "Affirm the pioneering position as the first and largest React-focused company in the market.",
+    "missionTitle": "Mission",
+    "missionDescription": "Provide experts in React & React Native. Satisfy customers with the highest quality. Build the largest React engineer community in Vietnam.",
+    "coreValuesTitle": "Core Values",
+    "coreValuesDescription": "Specialized in React. Fast growth ability. Real experts. Immediate response.",
+    "achievementTitle": "Awards - Certifications",
+    "achievementDescription": "React Plus achieves the dual goals of ISO 9001:2015 certification for quality management and ISO 27001:2013 certification for information security management in the field of software production and processing by the International Organization for Standardization (ISO). We are proud to be the first unit in Vietnam specializing deeply in React & React Native, with the ability to provide services that satisfy all customers according to international standards.",
+    "findUsTitle": "Find Us",
+    "address": "Number 7, Row 2, Alley 651 Minh Khai, Hai Ba Trung, Hanoi"
+  }
+}
