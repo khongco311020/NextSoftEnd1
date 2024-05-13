@@ -27,7 +27,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="flex flex-col min-h-screen  mx-auto">
           <Header />
-          <div className="flex-grow mt-20">{children}</div>
+          <div className="flex-grow">{children}</div>
           <Carousel />
           <Footer />
         </div>
