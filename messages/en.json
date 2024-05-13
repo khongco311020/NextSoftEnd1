@@ -14,7 +14,9 @@
     "activities": "Activities"
   },
   "Footer": {
-    "copyright": " © SkyNextSoft, JSC 2024. All rights reserved."
+    "copyright": " © SkyNextSoft, JSC 2024. All rights reserved.",
+    "Aboutthecompany": "About the company",
+    "companyDescription": "We create bigger, bolder, braver, and better digital ideas. We believe in the flexibility and precision of great ideas. We are the best financial solution provider and consultant in the world. Diverse software and web development services."
   },
 
   "AboutPage": {

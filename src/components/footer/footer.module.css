@@ -1,0 +1,76 @@
+.footerdistributed {
+  background-color: #2d2a30;
+  box-sizing: border-box;
+  widows: 100%;
+  text-align: center;
+  font: bold 16px sans-serif;
+  padding: 20px 50px 20px 50px;
+  margin-top: 80px;
+  display: flex;
+}
+.footerdistributed h3 {
+  color: #32a171;
+  font: normal 36px "cookie", cursive;
+  margin: 0;
+}
+.footerLeft .footerCenter .footerRight {
+  display: block;
+  vertical-align: top;
+}
+.footerLeft {
+  width: 30%;
+}
+.footerLinks {
+  display: flex;
+  justify-content: space-evenly;
+  color: #dcc8c8;
+  margin: 20px 0 22px;
+  font-weight: 400;
+}
+.footerLinks link {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+.footerCompanyName {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+.footerCenter {
+  width: 35%;
+  align-items: center;
+  color: #fff;
+}
+.iconReact {
+  color: #32a171;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+}
+
+.footerCenter p {
+  padding: 2px;
+}
+.footerRight {
+  width: 35%;
+  color: #8f9296;
+  padding-left: 15px;
+}
+.textRight {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 2px;
+}
+.textRight span {
+  font-size: larger;
+}
+.textRight strong {
+  font-size: small;
+}
