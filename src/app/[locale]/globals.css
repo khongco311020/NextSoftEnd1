@@ -91,6 +91,10 @@ a {
   width: 45px;
   height: auto;
 }
-option{
-  background-color: transparent;
+.background{
+  background: linear-gradient(180deg, rgb(248 250 252) 0%, rgba(244, 246, 250, 0) 83.85%);
+}
+.imagebgg{
+  width: 100%;
+  height: auto;
 }
