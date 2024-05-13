@@ -9,6 +9,7 @@ import { FaComputer } from "react-icons/fa6";
 export default function Home() {
   const t = useTranslations("IndexPage");
   const locale = useLocale();
+  
 
   return (
     <div className={styles.wrap}>

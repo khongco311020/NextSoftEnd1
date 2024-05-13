@@ -25,6 +25,7 @@ const Carousel = () => {
   //         // options
   //     });
   // }, []);
+  
   return (
     <div className="swiper-container  container">
       <h2 className="text-lg font-semibold">Tin tức mới</h2>
