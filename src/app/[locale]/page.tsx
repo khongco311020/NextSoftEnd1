@@ -8,6 +8,9 @@ import { SiEsotericsoftware } from "react-icons/si";
 import { FaComputer } from "react-icons/fa6";
 import { IoSpeedometer } from "react-icons/io5";
 import { GrSecure } from "react-icons/gr";
+import aosBg from "@/components/aos/aosbg";
+import AosBg from "@/components/aos/aosbg";
+
 export default function Home() {
   const t = useTranslations("IndexPage");
   const locale = useLocale();
@@ -22,14 +25,7 @@ export default function Home() {
         height={500}
         className="relative w-full imagebg h-auto "
       />
-      <div className=" pb-5 absolute top-40 left-40" data-aos="fade-down">
-        <p className="text-center text-sky-600 text-4xl pb-5">
-          CODING THE FUTURE
-        </p>
-        <h1 className="text-green-500 font-bold text-center text-5xl">
-          SMART - SPEED - STRONG - SECURE
-        </h1>
-      </div>
+      <AosBg/>
       {/* <div className={styles.wrapNoneFlex}>
         <div className={styles.containerCl}>
           <Link href={`${locale}/about`}>
@@ -78,7 +74,7 @@ export default function Home() {
                   mong muốn và hiệu xuất cao
                 </span>
             </div>
-            <div className="column-3 flex items-center flex-col gap-3 shadow-lg p-5 py-9  bg-white hover:shadow-2xl w-1/4" >
+            <div className="column-3  flex items-center flex-col gap-3 shadow-lg p-5 py-9  bg-white hover:shadow-2xl w-1/4" >
                 <div className="text-6xl text-green-700"><IoSpeedometer /></div>
                 <h2 className=" text-lg font-semibold">Speed</h2>
                 <p className="text-center p-5">Tốc độ phát triển phần mềm, hiệu suất của phần mềm,
