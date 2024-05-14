@@ -50,7 +50,7 @@ const Carousel = () => {
             <div>
               <div>
                 <Image
-                  src="/samsung.jpg"
+                  src="/vinsmart.jpg"
                   alt=""
                   width={1000}
                   height={1000}
@@ -58,7 +58,8 @@ const Carousel = () => {
                 />
               </div>
               <h3 className="pt-4 font-medium hover:text-neutral-300">
-                Samsung đã có "vũ khí" cực mạnh cho smartphone cao cấp
+                Động thái mới của Vingroup để tái cấu trúc công ty sản xuất điện
+                thoại di động VinSmart
               </h3>
             </div>
           </Link>
@@ -71,7 +72,7 @@ const Carousel = () => {
             <div>
               <div>
                 <Image
-                  src="/troliai.webp"
+                  src="/ai.webp"
                   alt=""
                   width={1000}
                   height={1000}
@@ -93,7 +94,7 @@ const Carousel = () => {
             <div>
               <div>
                 <Image
-                  src="/lohong.webp"
+                  src="/taxi.webp"
                   alt=""
                   width={1000}
                   height={1000}
@@ -101,8 +102,8 @@ const Carousel = () => {
                 />
               </div>
               <h3 className="pt-4 font-medium hover:text-neutral-300">
-                Lỗ hổng nghiêm trọng khiến hơn 50.000 máy chủ có nguy cơ bị tấn
-                công
+                Taxi điện mini đầu tiên tại Việt Nam tung ảnh ra quân: giá cước
+                từ 8.000 đồng/km, thuê tự lái 450.000 đồng/ngày
               </h3>
             </div>
           </Link>
@@ -137,7 +138,7 @@ const Carousel = () => {
             <div>
               <div>
                 <Image
-                  src="/iphone16.png"
+                  src="/vinfast.webp"
                   alt=""
                   width={1000}
                   height={1000}
@@ -145,7 +146,8 @@ const Carousel = () => {
                 />
               </div>
               <h3 className="pt-4 font-medium hover:text-neutral-300">
-                iPhone 16 chưa ra mắt, tin đồn về iPhone 18 Pro đã xuất hiện
+                Hình ảnh đầu tiên của loạt xe VF 3 'bằng xương bằng thịt' tại
+                nhà máy VinFast Hải Phòng
               </h3>
             </div>
           </Link>

@@ -2,12 +2,11 @@ import { useLocale, useTranslations } from "next-intl";
 import styles from "./home.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import { AiTwotoneLike } from "react-icons/ai";
-import { GiMightySpanner, GiSmart, GiStrong } from "react-icons/gi";
-import { SiEsotericsoftware } from "react-icons/si";
-import { FaComputer } from "react-icons/fa6";
+import { GiSmart, GiStrong } from "react-icons/gi";
 import { IoSpeedometer } from "react-icons/io5";
 import { GrSecure } from "react-icons/gr";
+import AosBg from "@/components/aos/aosbg";
+
 export default function Home() {
   const t = useTranslations("IndexPage");
   const h = useTranslations("Home");
@@ -22,14 +21,7 @@ export default function Home() {
         height={500}
         className="relative w-full imagebg h-auto "
       />
-      <div className=" pb-5 absolute top-40 left-40" data-aos="fade-down">
-        <p className="text-center text-sky-600 text-4xl pb-5">
-          CODING THE FUTURE
-        </p>
-        <h1 className="text-green-500 font-bold text-center text-5xl">
-          SMART - SPEED - STRONG - SECURE
-        </h1>
-      </div>
+      <AosBg />
       <div className="py-14 background">
         <h1 className="pb-4 text-center text-3xl font-semibold">
           {h("value")}
