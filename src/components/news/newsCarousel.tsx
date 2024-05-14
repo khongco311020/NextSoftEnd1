@@ -15,7 +15,7 @@ import {
   Scrollbar,
   A11y,
   //   Delay,
-  Mousewheel,
+  // Mousewheel,
   Autoplay,
 } from "swiper/modules";
 
@@ -25,7 +25,7 @@ const Carousel = () => {
   //         // options
   //     });
   // }, []);
-  
+
   return (
     <div className="swiper-container  container">
       <h2 className="text-lg font-semibold">Tin tức mới</h2>
@@ -36,7 +36,7 @@ const Carousel = () => {
         // onSlideChange={() => console.log('slide change')}
         spaceBetween={30}
         slidesPerView={4}
-        modules={[Pagination, Navigation, A11y, Mousewheel, Autoplay]}
+        modules={[Pagination, Navigation, A11y, Autoplay]}
         loop={true}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
         
@@ -61,7 +61,10 @@ const Carousel = () => {
           </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Link href="https://cafebiz.vn/kinh-doanh-qua-mang-het-thoi-tron-thue-176240508140519745.chn" target="_blank">
+          <Link
+            href="https://cafebiz.vn/kinh-doanh-qua-mang-het-thoi-tron-thue-176240508140519745.chn"
+            target="_blank"
+          >
             <div>
               <div>
                 <Image
@@ -99,7 +102,10 @@ const Carousel = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link href="https://cafebiz.vn/vi-sao-he-thong-cua-bitcoin-chua-bao-gio-bi-hack-176240509133356291.chn"target="_blank">
+          <Link
+            href="https://cafebiz.vn/vi-sao-he-thong-cua-bitcoin-chua-bao-gio-bi-hack-176240509133356291.chn"
+            target="_blank"
+          >
             <div>
               <div>
                 <Image
