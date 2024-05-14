@@ -11,7 +11,8 @@
     "home": "Home",
     "about": "About",
     "blog": "Blog",
-    "activities": "Activities"
+    "activities": "Activities",
+    "service": "Service"
   },
   "Footer": {
     "copyright": " © SkyNextSoft, JSC 2024. All rights reserved.",
@@ -19,6 +20,20 @@
     "companyDescription": "We create bigger, bolder, braver, and better digital ideas. We believe in the flexibility and precision of great ideas. We are the best financial solution provider and consultant in the world. Diverse software and web development services."
   },
 
+  "Home": {
+    "smart": "Optimized algorithms produce products with the desired results and high efficiency",
+    "speed": "Software development speed, software performance, deployment speed, and application responsiveness.",
+    "strong": "Features, designs, or systems that provide durability, performance, and reliability",
+    "secure": "Protect users' personal information, protect businesses from legal and financial risks",
+    "bring": "BRINGING THE HIGHEST SOFTWARE DEVELOPMENT SERVICES AND APPLICATIONS",
+    "website": "Website design",
+    "system": "System design",
+    "solutions": "IT solutions",
+    "mobile": "Mobile App Design",
+    "more": "service discovery",
+    "value": "WHERE DOES OUR VALUE LIE ?",
+    "contentValue": "Always offering great technology solutions"
+  },
   "AboutPage": {
     "title": "About Page",
     "description": "Description about the about page",
@@ -37,5 +52,8 @@
     "achievementDescription": "React Plus achieves the dual goals of ISO 9001:2015 certification for quality management and ISO 27001:2013 certification for information security management in the field of software production and processing by the International Organization for Standardization (ISO). We are proud to be the first unit in Vietnam specializing deeply in React & React Native, with the ability to provide services that satisfy all customers according to international standards.",
     "findUsTitle": "Find Us",
     "address": "Number 7, Row 2, Alley 651 Minh Khai, Hai Ba Trung, Hanoi"
-  }
+  },
+  "Blog": {},
+  "Activities": {},
+  "Service": {}
 }

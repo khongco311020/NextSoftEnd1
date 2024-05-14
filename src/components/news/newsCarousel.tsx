@@ -15,7 +15,7 @@ import {
   Scrollbar,
   A11y,
   //   Delay,
-  Mousewheel,
+  // Mousewheel,
   Autoplay,
 } from "swiper/modules";
 
@@ -25,7 +25,7 @@ const Carousel = () => {
   //         // options
   //     });
   // }, []);
-  
+
   return (
     <div className="swiper-container  container">
       <h2 className="text-lg font-semibold">Tin tức mới</h2>
@@ -36,14 +36,17 @@ const Carousel = () => {
         // onSlideChange={() => console.log('slide change')}
         spaceBetween={30}
         slidesPerView={4}
-        modules={[Pagination, Navigation, A11y, Mousewheel, Autoplay]}
+        modules={[Pagination, Navigation, A11y, Autoplay]}
         loop={true}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
-        mousewheel={true}
+        // mousewheel={true}
         className="my-5"
       >
         <SwiperSlide>
-          <Link href="https://www.24h.com.vn/thoi-trang-hi-tech/samsung-da-co-vu-khi-cuc-manh-cho-smartphone-cao-...55.html" target="_blank">
+          <Link
+            href="https://www.24h.com.vn/thoi-trang-hi-tech/samsung-da-co-vu-khi-cuc-manh-cho-smartphone-cao-...55.html"
+            target="_blank"
+          >
             <div>
               <div>
                 <Image
@@ -61,7 +64,10 @@ const Carousel = () => {
           </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Link href="https://cafebiz.vn/kinh-doanh-qua-mang-het-thoi-tron-thue-176240508140519745.chn" target="_blank">
+          <Link
+            href="https://cafebiz.vn/kinh-doanh-qua-mang-het-thoi-tron-thue-176240508140519745.chn"
+            target="_blank"
+          >
             <div>
               <div>
                 <Image
@@ -80,7 +86,10 @@ const Carousel = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link href="https://cafebiz.vn/lo-hong-nghiem-trong-khien-hon-50000-may-chu-co-nguy-co-bi-tan-cong-17624...28.chn" target="_blank">
+          <Link
+            href="https://cafebiz.vn/lo-hong-nghiem-trong-khien-hon-50000-may-chu-co-nguy-co-bi-tan-cong-17624...28.chn"
+            target="_blank"
+          >
             <div>
               <div>
                 <Image
@@ -100,7 +109,10 @@ const Carousel = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link href="https://cafebiz.vn/vi-sao-he-thong-cua-bitcoin-chua-bao-gio-bi-hack-176240509133356291.chn"target="_blank">
+          <Link
+            href="https://cafebiz.vn/vi-sao-he-thong-cua-bitcoin-chua-bao-gio-bi-hack-176240509133356291.chn"
+            target="_blank"
+          >
             <div>
               <div>
                 <Image
@@ -118,7 +130,10 @@ const Carousel = () => {
           </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Link href="https://www.24h.com.vn/thoi-trang-hi-tech/iphone-16-chua-ra-mat-tin-don-ve-iphone-18-pro-da...34.html" target="_blank">
+          <Link
+            href="https://www.24h.com.vn/thoi-trang-hi-tech/iphone-16-chua-ra-mat-tin-don-ve-iphone-18-pro-da...34.html"
+            target="_blank"
+          >
             <div>
               <div>
                 <Image

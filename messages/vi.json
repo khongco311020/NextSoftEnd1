@@ -11,12 +11,27 @@
     "home": "Trang chủ",
     "about": "Về chúng tôi",
     "blog": "Tin tức",
-    "activities": "Hoạt động"
+    "activities": "Hoạt động",
+    "service": "Dịch vụ"
   },
   "Footer": {
     "copyright": " © SkyNextSoft, JSC 2024. All rights reserved.",
     "Aboutthecompany": "Về Công Ty",
     "companyDescription": "Chúng tôi tạo ra những ý tưởng kỹ thuật số lớn hơn, táo bạo hơn, dũng cảm hơn và tốt hơn. Chúng tôi tin vào tính linh hoạt và chính xác của những ý tưởng hay. Chúng tôi là Nhà cung cấp giải pháp tài chính và tư vấn tốt nhất trên thế giới. Dịch vụ phát triển phần mềm và web đa dạng."
+  },
+  "Home": {
+    "smart": "Tối ưu nhưng thuật toán đưa ra những sản phẩm với kết quả cao như mong muốn và hiệu xuất cao",
+    "speed": "Tốc độ phát triển phần mềm, hiệu suất của phần mềm, tốc độ triển khai, và khả năng phản hồi của ứng dụng.",
+    "strong": "Các tính năng, thiết kế, hoặc hệ thống mà có độ bền, hiệu suất và độ tin cậy cao",
+    "secure": "Bảo vệ thông tin cá nhân của người dùng, bảo vệ doanh nghiệp khỏi những rủi ro pháp lý và tài chính",
+    "bring": "MANG LẠI NHỮNG DỊCH VỤ PHÁT TRIỂN PHẦM MỀM CAO NHẤT",
+    "website": "Thiết kế Website",
+    "system": "Thiết kế hệ thống",
+    "solutions": "Giải pháp CNTT",
+    "mobile": "Thiết kế App Mobile",
+    "more": "Khám phá dịch vụ",
+    "value": "GIÁ TRỊ CỦA CHÚNG TÔI NẰM Ở ĐÂU ?",
+    "contentValue": "Luôn đưa ra những giải pháp công nghệ tuyệt vời"
   },
   "AboutPage": {
     "title": "Trang Giới thiệu",
@@ -36,5 +51,8 @@
     "achievementDescription": "React Plus hoàn thành mục tiêu kép đạt chuẩn ISO 9001:2015 về quản lý chất lượng và ISO 27001:2013 về quản lý an toàn thông tin trong lĩnh vực Sản xuất và gia công phần mềm do Tổ chức Tiêu chuẩn hóa quốc tế (ISO) chứng nhận. Chúng tôi tự hào là đơn vị đầu tiên tại Việt Nam tập trung chuyên sâu về React & React Native, với khả năng cung cấp dịch vụ làm hài lòng mọi khách hàng theo tiêu chuẩn quốc tế.",
     "findUsTitle": "Tìm chúng tôi",
     "address": "Số 7, Dãy 2, Ngõ 651 Minh Khai, Hai Bà Trưng, Hà Nội"
-  }
+  },
+  "Blog": {},
+  "Activities": {},
+  "Service": {}
 }
