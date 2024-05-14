@@ -8,6 +8,9 @@ import { SiEsotericsoftware } from "react-icons/si";
 import { FaComputer } from "react-icons/fa6";
 import { IoSpeedometer } from "react-icons/io5";
 import { GrSecure } from "react-icons/gr";
+import aosBg from "@/components/aos/aosbg";
+import AosBg from "@/components/aos/aosbg";
+
 export default function Home() {
   const t = useTranslations("IndexPage");
   const h = useTranslations("Home");
