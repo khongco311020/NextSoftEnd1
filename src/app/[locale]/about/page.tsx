@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import styles from "./about.module.css";
 import Image from "next/image";
 import { IoLocationOutline } from "react-icons/io5";
+import Googlemap from "./Googlemap";
 
 export default function About() {
   const t = useTranslations("AboutPage");
@@ -96,7 +97,7 @@ export default function About() {
               <p>{t("address")}</p>
             </div>
           </div>
-          <div className={styles.imgContainer}>{/* <Googlemap /> */}</div>
+          <div className={styles.imgContainer}>{<Googlemap />}</div>
         </div>
       </div>
     </div>
