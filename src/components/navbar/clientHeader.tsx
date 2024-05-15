@@ -43,7 +43,7 @@ export default function ClientHeader({
               className="imglogo"
             />
             <h2
-              className={` font-semibold ${isSticky ? "text-green-700" : ""}`}
+              className={` font-semibold ${isSticky ? "text-green-600" : ""}`}
             >
               SkyNextSoft
             </h2>

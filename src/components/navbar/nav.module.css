@@ -1,0 +1,16 @@
+.linkContainer {
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.active {
+  border: 1px solid #15803d;
+  
+
+  box-shadow: 0 4px 8px rgba(116, 223, 155, 0.4);
+}

@@ -28,7 +28,7 @@ const Carousel = () => {
 
   return (
     <div className="swiper-container  container">
-      <h2 className="text-lg font-semibold">Tin tức mới</h2>
+      <h2 className="text-lg font-semibold text-green-600">Tin tức mới</h2>
       <Swiper
         pagination={{ dynamicBullets: true, clickable: true }}
         // scrollbar={{  }}
@@ -39,11 +39,14 @@ const Carousel = () => {
         modules={[Pagination, Navigation, A11y, Autoplay]}
         loop={true}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
-        
+        // mousewheel={true}
         className="my-5"
       >
         <SwiperSlide>
-          <Link href="https://cafebiz.vn/dong-thai-moi-cua-vingroup-de-tai-cau-truc-cong-ty-san-xuat-dien-thoai-di-dong-vinsmart-176240424154045552.chn " target="_blank">
+          <Link
+            href="https://www.24h.com.vn/thoi-trang-hi-tech/samsung-da-co-vu-khi-cuc-manh-cho-smartphone-cao-...55.html"
+            target="_blank"
+          >
             <div>
               <div>
                 <Image
@@ -55,7 +58,8 @@ const Carousel = () => {
                 />
               </div>
               <h3 className="pt-4 font-medium hover:text-neutral-300">
-              Động thái mới của Vingroup để tái cấu trúc công ty sản xuất điện thoại di động VinSmart
+                Động thái mới của Vingroup để tái cấu trúc công ty sản xuất điện
+                thoại di động VinSmart
               </h3>
             </div>
           </Link>
@@ -83,7 +87,10 @@ const Carousel = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link href="https://cafebiz.vn/taxi-dien-mini-dau-tien-tai-viet-nam-tung-anh-ra-quan-gia-cuoc-tu-8000-dong-km-thue-tu-lai-450000-dong-ngay-176240513103440376.chn" target="_blank">
+          <Link
+            href="https://cafebiz.vn/lo-hong-nghiem-trong-khien-hon-50000-may-chu-co-nguy-co-bi-tan-cong-17624...28.chn"
+            target="_blank"
+          >
             <div>
               <div>
                 <Image
@@ -95,7 +102,8 @@ const Carousel = () => {
                 />
               </div>
               <h3 className="pt-4 font-medium hover:text-neutral-300">
-              Taxi điện mini đầu tiên tại Việt Nam tung ảnh ra quân: giá cước từ 8.000 đồng/km, thuê tự lái 450.000 đồng/ngày
+                Taxi điện mini đầu tiên tại Việt Nam tung ảnh ra quân: giá cước
+                từ 8.000 đồng/km, thuê tự lái 450.000 đồng/ngày
               </h3>
             </div>
           </Link>
@@ -123,7 +131,10 @@ const Carousel = () => {
           </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Link href="https://cafebiz.vn/hinh-anh-dau-tien-cua-loat-xe-vf-3-bang-xuong-bang-thit-tai-nha-may-vinfast-hai-phong-17624051413530331.chn" target="_blank">
+          <Link
+            href="https://www.24h.com.vn/thoi-trang-hi-tech/iphone-16-chua-ra-mat-tin-don-ve-iphone-18-pro-da...34.html"
+            target="_blank"
+          >
             <div>
               <div>
                 <Image
@@ -135,7 +146,8 @@ const Carousel = () => {
                 />
               </div>
               <h3 className="pt-4 font-medium hover:text-neutral-300">
-              Hình ảnh đầu tiên của loạt xe VF 3 'bằng xương bằng thịt' tại nhà máy VinFast Hải Phòng
+                Hình ảnh đầu tiên của loạt xe VF 3 'bằng xương bằng thịt' tại
+                nhà máy VinFast Hải Phòng
               </h3>
             </div>
           </Link>
