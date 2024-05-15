@@ -10,9 +10,9 @@ export default function Header() {
 
   return (
     <ClientHeader>
-      <div className="flex justify-between w-2/5 items-center">
+      <div className="flex justify-between w-3/6 items-center">
         <NavLink path="/" title={t("home")} />
-        {/* <NavLink path={`/${locale}/about`} title={t("about")} /> */}
+        <NavLink path={`/${locale}/about`} title={t("about")} />
         <NavLink path={`/${locale}/blog`} title={t("blog")} />
         <NavLink path={`/${locale}/activities`} title={t("activities")} />
         <NavLink path={`/${locale}/service`} title={t("service")}>
