@@ -15,9 +15,9 @@ export default function MenuNavbar() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="flex items-center space-x-1">
+        <Menu.Button className="flex items-center space-x-1 pt-2">
           <ChevronDownIcon
-            className="h-5 w-5 text-inherit"
+            className=" w-5 text-inherit h-4 "
             aria-hidden="true"
           />
         </Menu.Button>

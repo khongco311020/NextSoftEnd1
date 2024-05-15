@@ -13,12 +13,12 @@ const Service = () => {
         height={250}
         className="relative w-full  h-auto "
       />
-      <div className="services px-5 py-10 max-w-4xl mx-auto flex flex-col gap-8">
-        <h1 className="text-center text-4xl font-bold text-gray-800 mb-8">
+      <div className="services px-5 py-10 container mx-auto flex flex-col gap-8">
+        <h1 className="text-center text-3xl font-semibold text-green-600 mb-8">
           {t("title")}
         </h1>
         <section id="thiet-ke-website">
-          <h2 className="text-3xl font-semibold text-blue-600 border-b-2 border-blue-600 pb-2 mb-6">
+          <h2 className=" border-b pb-2 text-3xl text-bold text-green-600 mb-6">
             {t("web_design")}
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
@@ -32,7 +32,7 @@ const Service = () => {
           </ul>
         </section>
         <section id="thiet-ke-he-thong">
-          <h2 className="text-3xl font-semibold text-blue-600 border-b-2 border-blue-600 pb-2 mb-6">
+          <h2 className="border-b pb-2 text-3xl text-bold text-green-600 mb-6">
             {t("system_design")}
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
@@ -46,7 +46,7 @@ const Service = () => {
           </ul>
         </section>
         <section id="giai-phap-cntt">
-          <h2 className="text-3xl font-semibold text-blue-600 border-b-2 border-blue-600 pb-2 mb-6">
+          <h2 className="border-b pb-2 text-3xl text-bold text-green-600 mb-6">
             {t("it_solution")}
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
@@ -60,7 +60,7 @@ const Service = () => {
           </ul>
         </section>
         <section id="thiet-ke-app-mobile">
-          <h2 className="text-3xl font-semibold text-blue-600 border-b-2 border-blue-600 pb-2 mb-6">
+          <h2 className="border-b pb-2 text-3xl text-bold text-green-600 mb-6">
             {t("mobile_app_design")}
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">

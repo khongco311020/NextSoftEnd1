@@ -28,7 +28,7 @@ const Carousel = () => {
 
   return (
     <div className="swiper-container  container">
-      <h2 className="text-lg font-semibold">Tin tức mới</h2>
+      <h2 className="text-lg font-semibold text-green-600">Tin tức mới</h2>
       <Swiper
         pagination={{ dynamicBullets: true, clickable: true }}
         // scrollbar={{  }}
