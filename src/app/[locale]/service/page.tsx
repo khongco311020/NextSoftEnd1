@@ -1,7 +1,16 @@
 // Trong file Service.js
+import Image from "next/image";
 const Service = () => {
   return (
-    <div className="services px-5 py-10 max-w-4xl mx-auto flex flex-col gap-8">
+    <div className="">
+      <Image
+        src="/bg.jpg"
+        alt=""
+        width={1200}
+        height={250}
+        className="relative w-full  h-auto "
+      />
+      <div className="services px-5 py-10 max-w-4xl mx-auto flex flex-col gap-8">
       <h1 className="text-center text-4xl font-bold text-gray-800 mb-8">
         Dịch vụ của chúng tôi
       </h1>
@@ -87,6 +96,8 @@ const Service = () => {
         </ul>
       </section>
     </div>
+    </div>
+    
   );
 };
 

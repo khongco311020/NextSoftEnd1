@@ -18,14 +18,11 @@ export default function Home() {
 
   return (
     <div className={styles.wrap}>
-      <Image
-        src="/bg.png"
-        alt=""
-        width={1200}
-        height={500}
-        className="relative w-full imagebg h-auto "
-      />
-      <AosBg/>
+      
+      <div className="w-full h-5/6 bg-slate-300">
+        <AosBg/>
+      </div>
+      
       <div className="py-14 background">
         <h1 className="pb-4 text-center text-3xl font-semibold">
           {h("value")}
