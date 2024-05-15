@@ -12,10 +12,11 @@ export default function Header() {
     <ClientHeader>
       <div className="flex justify-between w-2/5 items-center font-semibold">
         <Link href="/">{t("home")}</Link>
-        <Link href={`/${locale}/about`}>{t("about")}</Link>
+        <Link href={`/${locale}/service`}><MenuMavbar/></Link>
+        {/* <Link href={`/${locale}/about`}>{t("about")}</Link> */}
         <Link href={`/${locale}/blog`}>{t("blog")}</Link>
         <Link href={`/${locale}/activities`}>{t("activities")}</Link>
-        <Link href={`/${locale}/service`}><MenuMavbar/></Link>
+        
         <LocalSwitcher />
       </div>
     </ClientHeader>
