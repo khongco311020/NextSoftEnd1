@@ -9,6 +9,13 @@ export default function About() {
 
   return (
     <div>
+      <Image
+        src="/bg.jpg"
+        alt=""
+        width={1200}
+        height={250}
+        className="relative w-full  h-auto "
+      />
       <div className={styles.container}>
         <div className={styles.textContainer}>
           <h1 className={styles.title}>{t("companyName")}</h1>

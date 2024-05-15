@@ -73,8 +73,8 @@ a {
     }
   } */
 .left-40 {
-  top: 34rem;
-  left: 20rem;
+  top: 9%;
+  left: 21%;
 }
 
 .imagebg {
@@ -97,4 +97,7 @@ a {
 .imagebgg{
   width: 100%;
   height: auto;
+}
+.bgcolor{
+  background-color: #344C7D;
 }
