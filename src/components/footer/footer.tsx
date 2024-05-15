@@ -23,10 +23,7 @@ export default function Footer() {
           <div className={styles.iconReact}>
             <MdOutlineAddLocation />
           </div>
-          <p>
-            <span>7/2/651 Minh khai P.Thanh lương Q.Hai Bà Trưng,</span>TP.Hà
-            Nội{" "}
-          </p>
+          <p>7/2/651 Minh khai P.Thanh lương Q.Hai Bà Trưng TP.Hà Nội</p>
         </div>
         <div className="flex items-center">
           <div className={styles.iconReact}>
