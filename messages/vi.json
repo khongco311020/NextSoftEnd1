@@ -17,7 +17,8 @@
   "Footer": {
     "copyright": " © SkyNextSoft, JSC 2024. All rights reserved.",
     "Aboutthecompany": "Về Công Ty",
-    "companyDescription": "Chúng tôi tạo ra những ý tưởng kỹ thuật số lớn hơn, táo bạo hơn, dũng cảm hơn và tốt hơn. Chúng tôi tin vào tính linh hoạt và chính xác của những ý tưởng hay. Chúng tôi là Nhà cung cấp giải pháp tài chính và tư vấn tốt nhất trên thế giới. Dịch vụ phát triển phần mềm và web đa dạng."
+    "companyDescription": "Chúng tôi tạo ra những ý tưởng kỹ thuật số lớn hơn, táo bạo hơn, dũng cảm hơn và tốt hơn. Chúng tôi tin vào tính linh hoạt và chính xác của những ý tưởng hay. Chúng tôi là Nhà cung cấp giải pháp tài chính và tư vấn tốt nhất trên thế giới. Dịch vụ phát triển phần mềm và web đa dạng.",
+    "address": "Số 7, Dãy 2, Ngõ 651 Minh Khai, Hai Bà Trưng, Hà Nội"
   },
   "Home": {
     "smart": "Tối ưu nhưng thuật toán đưa ra những sản phẩm với kết quả cao như mong muốn và hiệu xuất cao",
@@ -53,6 +54,31 @@
     "address": "Số 7, Dãy 2, Ngõ 651 Minh Khai, Hai Bà Trưng, Hà Nội"
   },
   "Blog": {},
-  "Activities": {},
-  "Service": {}
+  "ServicePage": {
+    "title": "Dịch vụ của chúng tôi",
+    "web_design": "Thiết kế Website",
+    "web_design_description": "Thiết kế website là quá trình tạo ra giao diện và trải nghiệm người dùng của một trang web...",
+    "web_design_item1": "Phân tích và nghiên cứu yêu cầu của khách hàng Thiết kế giao diện đồ họa (UI/UX)",
+    "web_design_item2": "Xây dựng trang web bằng các công nghệ hiện đại (HTML, CSS, JavaScript)",
+    "web_design_item3": "Tối ưu hóa trang web cho thiết bị di động (responsive design)",
+    "web_design_item4": "Tối ưu hóa SEO để cải thiện thứ hạng tìm kiếm",
+    "system_design": "Thiết kế Hệ thống",
+    "system_design_description": "Thiết kế hệ thống là quá trình lập kế hoạch và cấu trúc các thành phần của hệ thống thông tin để đáp ứng các yêu cầu cụ thể của một tổ chức hoặc doanh nghiệp...",
+    "system_design_item1": "Đảm bảo tính khả dụng và tin cậy",
+    "system_design_item2": "Đáp ứng yêu cầu hiệu suất và mở rộng",
+    "system_design_item3": "Bảo mật thông tin và dữ liệu",
+    "system_design_item4": "Tích hợp với các hệ thống hiện có",
+    "it_solution": "Giải pháp CNTT",
+    "it_solution_description": "Giải pháp Công nghệ Thông tin (CNTT) là việc áp dụng công nghệ để giải quyết các vấn đề kinh doanh và cải thiện hiệu quả hoạt động của doanh nghiệp...",
+    "it_solution_item1": "Tối ưu hóa quy trình kinh doanh",
+    "it_solution_item2": "Cải thiện năng suất và hiệu quả làm việc",
+    "it_solution_item3": "Tăng cường bảo mật và quản lý rủi ro",
+    "it_solution_item4": "Hỗ trợ ra quyết định thông minh dựa trên dữ liệu",
+    "mobile_app_design": "Thiết kế App Mobile",
+    "mobile_app_design_description": "Thiết kế ứng dụng di động (Mobile App) là quá trình tạo ra các ứng dụng phần mềm chạy trên thiết bị di động như điện thoại thông minh và máy tính bảng...",
+    "mobile_app_design_item1": "Cung cấp trải nghiệm người dùng tuyệt vời",
+    "mobile_app_design_item2": "Tương thích với nhiều loại thiết bị và kích thước màn hình",
+    "mobile_app_design_item3": "Hiệu suất mượt mà và ổn định",
+    "mobile_app_design_item4": "Bảo mật và bảo vệ dữ liệu người dùng"
+  }
 }

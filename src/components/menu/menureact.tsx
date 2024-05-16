@@ -2,6 +2,7 @@
 import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/16/solid";
+import { useLocale } from "next-intl";
 import Link from "next/link";
 
 function classNames(...classes: any) {
@@ -9,6 +10,8 @@ function classNames(...classes: any) {
 }
 
 export default function MenuNavbar() {
+  // const t = useTranslations("Home");
+  const locale = useLocale();
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
@@ -34,54 +37,54 @@ export default function MenuNavbar() {
             <Menu.Item>
               {({ active }) => (
                 <Link
-                  href="/"
+                  href={`/${locale}/service/#thiet-ke-website`}
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                     "block px-4 py-2 text-sm border-b"
                   )}
                 >
-                  Thiết kế Website
+                  Web
                 </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
-                  href="#"
+                <Link
+                  href={`/${locale}/service/#thiet-ke-he-thong`}
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                     "block px-4 py-2 text-sm border-b"
                   )}
                 >
-                  Thiết kế hệ thống
-                </a>
+                  System
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
-                  href="#"
+                <Link
+                  href={`/${locale}/service/#giai-phap-cntt`}
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                     "block px-4 py-2 text-sm border-b"
                   )}
                 >
-                  Giải pháp IT
-                </a>
+                  Solutions
+                </Link>
               )}
             </Menu.Item>
             <form method="POST" action="#">
               <Menu.Item>
                 {({ active }) => (
-                  <button
-                    type="submit"
+                  <Link
+                    href={`/${locale}/service/#thiet-ke-app-mobile`}
                     className={classNames(
                       active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                       "block w-full px-4 py-2 text-left text-sm border-b"
                     )}
                   >
-                    Mobile App Design
-                  </button>
+                    Mobile
+                  </Link>
                 )}
               </Menu.Item>
             </form>

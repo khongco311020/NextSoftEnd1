@@ -1,6 +1,6 @@
 .linkContainer {
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: all 0.2s ease;
 }
 
@@ -9,8 +9,7 @@
 }
 
 .active {
-  border: 1px solid #15803d;
-  
+  border-bottom: 1px solid #15803d;
 
-  box-shadow: 0 4px 8px rgba(116, 223, 155, 0.4);
+  box-shadow: 0 6px 8px rgba(116, 223, 155, 0.4);
 }

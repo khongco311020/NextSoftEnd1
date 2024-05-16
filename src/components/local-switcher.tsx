@@ -27,7 +27,12 @@ export default function LocalSwitcher() {
       value: "en",
       label: (
         <span className="flex gap-3 ">
-          <img src="./england.png" alt="English" width="20px" height="20px" />{" "}
+          <img
+            src="/access/img/england.png"
+            alt="English"
+            width="20px"
+            height="20px"
+          />{" "}
           {/* Eng */}
         </span>
       ),
@@ -36,7 +41,12 @@ export default function LocalSwitcher() {
       value: "vi",
       label: (
         <span className="flex gap-2">
-          <img src="./vietnam.png" alt="Vietnam" width="20px" height="20px" />{" "}
+          <img
+            src="/access/img/vietnam.png"
+            alt="Vietnam"
+            width="20px"
+            height="20px"
+          />{" "}
           {/* Vi */}
         </span>
       ),

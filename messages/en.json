@@ -17,7 +17,8 @@
   "Footer": {
     "copyright": " © SkyNextSoft, JSC 2024. All rights reserved.",
     "Aboutthecompany": "About the company",
-    "companyDescription": "We create bigger, bolder, braver, and better digital ideas. We believe in the flexibility and precision of great ideas. We are the best financial solution provider and consultant in the world. Diverse software and web development services."
+    "companyDescription": "We create bigger, bolder, braver, and better digital ideas. We believe in the flexibility and precision of great ideas. We are the best financial solution provider and consultant in the world. Diverse software and web development services.",
+    "address": "Number 7, Row 2, Alley 651 Minh Khai, Hai Ba Trung, Ha Noi"
   },
 
   "Home": {
@@ -51,9 +52,34 @@
     "achievementTitle": "Awards - Certifications",
     "achievementDescription": "React Plus achieves the dual goals of ISO 9001:2015 certification for quality management and ISO 27001:2013 certification for information security management in the field of software production and processing by the International Organization for Standardization (ISO). We are proud to be the first unit in Vietnam specializing deeply in React & React Native, with the ability to provide services that satisfy all customers according to international standards.",
     "findUsTitle": "Find Us",
-    "address": "Number 7, Row 2, Alley 651 Minh Khai, Hai Ba Trung, Hanoi"
+    "address": "Number 7, Row 2, Alley 651 Minh Khai, Hai Ba Trung, Ha Noi"
   },
   "Blog": {},
-  "Activities": {},
-  "Service": {}
+  "ServicePage": {
+    "title": "Our Services",
+    "web_design": "Website Design",
+    "web_design_description": "Website design is the process of creating the user interface and experience of a website...",
+    "web_design_item1": "Analyzing and researching customer requirements Graphic interface design (UI/UX)",
+    "web_design_item2": "Building websites using modern technologies (HTML, CSS, JavaScript)",
+    "web_design_item3": "Optimizing websites for mobile devices (responsive design)",
+    "web_design_item4": "SEO optimization to improve search rankings",
+    "system_design": "System Design",
+    "system_design_description": "System design is the process of planning and structuring the components of an information system to meet the specific requirements of an organization or business...",
+    "system_design_item1": "Ensuring availability and reliability",
+    "system_design_item2": "Meeting performance and scalability requirements",
+    "system_design_item3": "Securing information and data",
+    "system_design_item4": "Integrating with existing systems",
+    "it_solution": "IT Solutions",
+    "it_solution_description": "Information Technology (IT) solutions involve applying technology to solve business problems and improve the efficiency of business operations...",
+    "it_solution_item1": "Optimizing business processes",
+    "it_solution_item2": "Improving productivity and efficiency",
+    "it_solution_item3": "Enhancing security and risk management",
+    "it_solution_item4": "Supporting intelligent decision-making based on data",
+    "mobile_app_design": "Mobile App Design",
+    "mobile_app_design_description": "Mobile app design is the process of creating software applications that run on mobile devices such as smartphones and tablets...",
+    "mobile_app_design_item1": "Providing excellent user experience",
+    "mobile_app_design_item2": "Compatible with various devices and screen sizes",
+    "mobile_app_design_item3": "Smooth and stable performance",
+    "mobile_app_design_item4": "Securing and protecting user data"
+  }
 }

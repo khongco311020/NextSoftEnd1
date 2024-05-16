@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
-import { MdOutlineAddLocation } from "react-icons/md";
 import { CgMail } from "react-icons/cg";
+import { IoLocationOutline } from "react-icons/io5";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import FooterSocials from "./FooterSocials";
 import styles from "./footer.module.css";
@@ -21,12 +21,9 @@ export default function Footer() {
       <div className={styles.footerCenter}>
         <div className="flex items-center">
           <div className={styles.iconReact}>
-            <MdOutlineAddLocation />
+            <IoLocationOutline />
           </div>
-          <p>
-            <span>7/2/651 Minh khai P.Thanh lương Q.Hai Bà Trưng,</span>TP.Hà
-            Nội{" "}
-          </p>
+          <p>{t("address")}</p>
         </div>
         <div className="flex items-center">
           <div className={styles.iconReact}>
