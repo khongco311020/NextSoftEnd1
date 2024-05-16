@@ -81,5 +81,17 @@
     "mobile_app_design_item2": "Compatible with various devices and screen sizes",
     "mobile_app_design_item3": "Smooth and stable performance",
     "mobile_app_design_item4": "Securing and protecting user data"
+  },
+  "ActivitiesPage": {
+    "title": "SkyNextSoft",
+    "description": "SkyNextSoft is a place where employees' health is always taken care of, creativity is encouraged, and ideas are fostered. The aim is to train and develop employees.",
+    "running_club_title": "Running Club",
+    "running_club_description1": "To improve the health of SkyNextSoft employees, everyone is encouraged to exercise daily.",
+    "running_club_description2": "Running or cycling, the sports offered by the company help everyone connect with nature and foster creative ideas.",
+    "soccer_club_title": "Soccer Club",
+    "soccer_club_description1": "To improve health and strengthen bonds among company employees, SkyNextSoft hosts weekly soccer matches.",
+    "soccer_club_description2": "Soccer is a competitive and team sport that gives you a strong feeling every time you step on the field and especially provides a break after sitting for 8 hours of work.",
+    "happy_hour_title": "Happy Hour",
+    "happy_hour_description": "Happy Hour is a time when employees take a break to eat fruit, gather, chat, relax, and most importantly, rest their eyes after a long time focusing on the screen."
   }
 }

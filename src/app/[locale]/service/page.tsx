@@ -1,3 +1,4 @@
+import Carousel from "@/components/news/newsCarousel";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
@@ -18,7 +19,7 @@ const Service = () => {
           {t("title")}
         </h1>
         <section id="thiet-ke-website">
-          <h2 className=" border-b pb-2 text-3xl text-bold text-green-600 mb-6">
+          <h2 className=" border-b pb-1 text-2xl text-bold text-green-600 mb-6">
             {t("web_design")}
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
@@ -32,7 +33,7 @@ const Service = () => {
           </ul>
         </section>
         <section id="thiet-ke-he-thong">
-          <h2 className="border-b pb-2 text-3xl text-bold text-green-600 mb-6">
+          <h2 className="border-b pb-1 text-2xl text-bold text-green-600 mb-6">
             {t("system_design")}
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
@@ -46,7 +47,7 @@ const Service = () => {
           </ul>
         </section>
         <section id="giai-phap-cntt">
-          <h2 className="border-b pb-2 text-3xl text-bold text-green-600 mb-6">
+          <h2 className="border-b pb-1 text-2xl text-bold text-green-600 mb-6">
             {t("it_solution")}
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
@@ -60,7 +61,7 @@ const Service = () => {
           </ul>
         </section>
         <section id="thiet-ke-app-mobile">
-          <h2 className="border-b pb-2 text-3xl text-bold text-green-600 mb-6">
+          <h2 className="border-b pb-1 text-2xl text-bold text-green-600 mb-6">
             {t("mobile_app_design")}
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
@@ -74,6 +75,7 @@ const Service = () => {
           </ul>
         </section>
       </div>
+      <Carousel/>
     </div>
   );
 };

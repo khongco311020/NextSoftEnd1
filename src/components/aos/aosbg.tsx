@@ -9,7 +9,7 @@ export default function AosBg() {
     AOS.init({
       duration: 1000,
       easing: "ease",
-      once:false
+      once:true
     });
     AOS.refresh();
   }, []);
@@ -24,10 +24,13 @@ export default function AosBg() {
         className=" m-auto pt-5"
         data-aos="fade-right"
       />
-      <p className="text-center text-sky-600 text-4xl pb-5 p-1" data-aos="fade-left">
+      <h1 className="text-green-500 font-bold text-center text-5xl pb-5" data-aos="fade-left">
+        SKYNEXTSOFT
+      </h1>
+      <p className="text-center text-sky-600 text-3xl pb-5 p-1" data-aos="fade-right">
         CODING THE FUTURE
       </p>
-      <h1 className="text-green-500 font-bold text-center text-5xl" data-aos="fade-right">
+      <h1 className="text-green-500 font-bold text-center text-4xl" data-aos="fade-left">
         SMART - SPEED - STRONG - SECURE
       </h1>
     </div>

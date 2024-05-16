@@ -80,5 +80,17 @@
     "mobile_app_design_item2": "Tương thích với nhiều loại thiết bị và kích thước màn hình",
     "mobile_app_design_item3": "Hiệu suất mượt mà và ổn định",
     "mobile_app_design_item4": "Bảo mật và bảo vệ dữ liệu người dùng"
+  },
+  "ActivitiesPage": {
+    "title": "SkyNextSoft",
+    "description": "Là nơi mà nhân viên luôn được quan tâm sức khỏe, thỏa mái sáng tạo, khuyến khích đóng góp và pháp triển ý tưởng. Mục đích hướng tới đào tạo, phát triển nhân viên.",
+    "running_club_title": "CLB Chạy bộ",
+    "running_club_description1": "Nhằm tăng cường sức khỏe nhân viên SkyNextSoft luôn khuyến khích mọi người tập thể dục hàng ngày.",
+    "running_club_description2": "Chạy bộ hay đạp xe mà những môn thể thao mà công ty đưa ra giúp mọi người hòa mình với thiên nhiên, sáng tạo ý tưởng.",
+    "soccer_club_title": "CLB đá bóng",
+    "soccer_club_description1": "Nhằm tăng cường sức khỏe cũng như gắn kết giữa các nhân viên công ty hàng tuần SkyNextSoft sẽ có những trận bóng giao lưu.",
+    "soccer_club_description2": "Đá bóng là môn thể thao đối kháng và đồng đội luôn mang lại cho bạn cảm giác mạng mẽ mỗi khi ra sân và đặc biết là giải lao sau khi ngồi làm việc 8 tiếng.",
+    "happy_hour_title": "Happy Hour",
+    "happy_hour_description": "Khoảng thời gian nhân viên nghỉ giải lao ăn hoa quả là lúc mọi người tụ tập cùng nhau nói chuyện,trao đổi, thư gian đầu óc đặc biết là giúp đôi mắt được nghỉ ngơi sau quãng thời dài tập chung vào màn hình."
   }
 }

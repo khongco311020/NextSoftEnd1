@@ -6,6 +6,7 @@ import { GiSmart, GiStrong } from "react-icons/gi";
 import { IoSpeedometer } from "react-icons/io5";
 import { GrSecure } from "react-icons/gr";
 import AosBg from "@/components/aos/aosbg";
+import Carousel from "@/components/news/newsCarousel";
 
 export default function Home() {
   const t = useTranslations("IndexPage");
@@ -129,6 +130,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Carousel/>
     </div>
   );
 }

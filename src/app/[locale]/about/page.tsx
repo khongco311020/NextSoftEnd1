@@ -5,6 +5,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { CgMail } from "react-icons/cg";
 import { MdOutlineSettingsPhone } from "react-icons/md";
 import Googlemap from "./Googlemap";
+import Carousel from "@/components/news/newsCarousel";
 
 export default function About() {
   const t = useTranslations("AboutPage");
@@ -18,10 +19,14 @@ export default function About() {
         height={250}
         className="relative w-full  h-auto "
       />
-      <div className={styles.container}>
-        <div className={styles.textContainer}>
-          <h1 className={styles.title}>{t("companyName")}</h1>
-          <p className={styles.desc}>{t("companyDescription")}</p>
+      <div className="py-14 flex flex-col gap-5">
+        <div className="container">
+          <h1 className="text-center text-3xl font-semibold text-green-600 mb-8">
+            {t("companyName")}
+          </h1>
+          <p className="text-center w-3/6 m-auto pb-10">
+            {t("companyDescription")}
+          </p>
           <div className={styles.boxes}>
             <div className={styles.box}>
               <div className={styles.boxImg}>
@@ -98,27 +103,38 @@ export default function About() {
           </div>
         </div> */}
 
-        <div className={styles.itemmap}>
-          <div className={styles.textContainer}>
-            <h2 className={styles.subtitle}>{t("findUsTitle")}</h2>
-            <div>
-              <div className={styles.textAddress}>
-                <IoLocationOutline />
-                <p>{t("address")}</p>
-              </div>
-              <div className={styles.textAddress}>
-                <MdOutlineSettingsPhone />
-                <p>+84 366 888 666</p>
-              </div>
-              <div className={styles.textAddress}>
-                <CgMail />
-                <p>skynextsoft@gmail.com</p>
+        <div className="container pt-10">
+          <div className="grid grid-cols-2">
+            <div className="col-span-1">
+              <div className="">
+                <h2 className=" text-green-600 text-2xl pb-5">
+                  {t("findUsTitle")}
+                </h2>
+                <div className="flex flex-col gap-3">
+                  <div className="flex items-center gap-3">
+                    <IoLocationOutline className="text-green-600 text-xl"/>
+                    <p>{t("address")}</p>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <MdOutlineSettingsPhone  className="text-green-600 text-xl" />
+                    <p>+84 366 888 666</p>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CgMail  className="text-green-600 text-xl" />
+                    <p>skynextsoft@gmail.com</p>
+                  </div>
+                </div>
               </div>
             </div>
+            <div className="col-span-1">
+            <div className="">{<Googlemap />}</div>
+            </div>
           </div>
-          <div className={styles.imgContainer}>{<Googlemap />}</div>
+
+          
         </div>
       </div>
+      
     </div>
   );
 }
