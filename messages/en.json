@@ -17,7 +17,8 @@
   "Footer": {
     "copyright": " © SkyNextSoft, JSC 2024. All rights reserved.",
     "Aboutthecompany": "About the company",
-    "companyDescription": "We create bigger, bolder, braver, and better digital ideas. We believe in the flexibility and precision of great ideas. We are the best financial solution provider and consultant in the world. Diverse software and web development services."
+    "companyDescription": "We create bigger, bolder, braver, and better digital ideas. We believe in the flexibility and precision of great ideas. We are the best financial solution provider and consultant in the world. Diverse software and web development services.",
+    "address": "Number 7, Row 2, Alley 651 Minh Khai, Hai Ba Trung, Ha Noi"
   },
 
   "Home": {
@@ -51,7 +52,7 @@
     "achievementTitle": "Awards - Certifications",
     "achievementDescription": "React Plus achieves the dual goals of ISO 9001:2015 certification for quality management and ISO 27001:2013 certification for information security management in the field of software production and processing by the International Organization for Standardization (ISO). We are proud to be the first unit in Vietnam specializing deeply in React & React Native, with the ability to provide services that satisfy all customers according to international standards.",
     "findUsTitle": "Find Us",
-    "address": "Number 7, Row 2, Alley 651 Minh Khai, Hai Ba Trung, Hanoi"
+    "address": "Number 7, Row 2, Alley 651 Minh Khai, Hai Ba Trung, Ha Noi"
   },
   "Blog": {},
   "ServicePage": {
