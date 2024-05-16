@@ -2,6 +2,8 @@ import { useTranslations } from "next-intl";
 import styles from "./about.module.css";
 import Image from "next/image";
 import { IoLocationOutline } from "react-icons/io5";
+import { CgMail } from "react-icons/cg";
+import { MdOutlineSettingsPhone } from "react-icons/md";
 import Googlemap from "./Googlemap";
 
 export default function About() {
@@ -41,7 +43,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className={styles.wrap}>
+        {/* <div className={styles.wrap}>
           <div className={styles.wrapcontainer}>
             <div className={styles.wrapcol}>
               <div className={styles.wrappad}>
@@ -74,9 +76,9 @@ export default function About() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className={styles.achive}>
+        {/* <div className={styles.achive}>
           <div className={styles.achivecontainer}>
             <div className={styles.achivecol}>
               <Image
@@ -94,14 +96,24 @@ export default function About() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className={styles.itemmap}>
           <div className={styles.textContainer}>
             <h2 className={styles.subtitle}>{t("findUsTitle")}</h2>
-            <div className={styles.textAddress}>
-              <IoLocationOutline />
-              <p>{t("address")}</p>
+            <div>
+              <div className={styles.textAddress}>
+                <IoLocationOutline />
+                <p>{t("address")}</p>
+              </div>
+              <div className={styles.textAddress}>
+                <MdOutlineSettingsPhone />
+                <p>+84 366 888 666</p>
+              </div>
+              <div className={styles.textAddress}>
+                <CgMail />
+                <p>skynextsoft@gmail.com</p>
+              </div>
             </div>
           </div>
           <div className={styles.imgContainer}>{<Googlemap />}</div>
