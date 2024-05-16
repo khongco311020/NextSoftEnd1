@@ -1,3 +1,4 @@
+import Carousel from "@/components/news/newsCarousel";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
@@ -74,6 +75,7 @@ const Service = () => {
           </ul>
         </section>
       </div>
+      <Carousel/>
     </div>
   );
 };

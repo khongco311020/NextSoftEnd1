@@ -1,4 +1,5 @@
 import ActivitiesAo from "@/components/aos/aosactivity";
+import Carousel from "@/components/news/newsCarousel";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
@@ -95,6 +96,7 @@ export default function Activities() {
           </div>
         </div>
       </div>
+      <Carousel/>
     </div>
   );
 }

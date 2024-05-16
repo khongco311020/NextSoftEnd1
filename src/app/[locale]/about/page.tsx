@@ -5,6 +5,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { CgMail } from "react-icons/cg";
 import { MdOutlineSettingsPhone } from "react-icons/md";
 import Googlemap from "./Googlemap";
+import Carousel from "@/components/news/newsCarousel";
 
 export default function About() {
   const t = useTranslations("AboutPage");
@@ -133,6 +134,7 @@ export default function About() {
           
         </div>
       </div>
+      
     </div>
   );
 }
