@@ -14,7 +14,7 @@ const Service = () => {
         <div className="bg-black opacity-50 absolute top-0 left-0 w-full h-full"></div>
       </div>
 
-      <div className="services px-5 py-10 container mx-auto flex flex-col gap-8">
+      <div className="services px-5 py-14 container mx-auto flex flex-col gap-8">
         <h1 className="text-center text-3xl font-semibold text-green-600 mb-8">
           Dịch vụ của chúng tôi
         </h1>
