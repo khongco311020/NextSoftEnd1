@@ -1,3 +1,4 @@
+import ActivitiesAo from "@/components/aos/aosactivity";
 import Carousel from "@/components/news/newsCarousel";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -76,9 +77,7 @@ export default function Activities() {
         </div>
         <div className="">
           <div className="container flex flex-col gap-5">
-            <h1 className="text-bold text-3xl text-green-600 text-center">
-              {t("happy_hour_title")}
-            </h1>
+            <ActivitiesAo/>
             <p className="text-center w-3/6 m-auto">
               {t("happy_hour_description")}
             </p>

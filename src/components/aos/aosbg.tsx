@@ -9,7 +9,7 @@ export default function AosBg() {
     AOS.init({
       duration: 1000,
       easing: "ease",
-      once:true
+      once:false
     });
     AOS.refresh();
   }, []);
