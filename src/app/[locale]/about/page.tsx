@@ -109,17 +109,17 @@ export default function About() {
                 <h2 className=" text-green-600 text-2xl pb-5">
                   {t("findUsTitle")}
                 </h2>
-                <div>
+                <div className="flex flex-col gap-3">
                   <div className="flex items-center gap-3">
-                    <IoLocationOutline />
+                    <IoLocationOutline className="text-green-600 text-xl"/>
                     <p>{t("address")}</p>
                   </div>
                   <div className="flex items-center gap-3">
-                    <MdOutlineSettingsPhone />
+                    <MdOutlineSettingsPhone  className="text-green-600 text-xl" />
                     <p>+84 366 888 666</p>
                   </div>
                   <div className="flex items-center gap-3">
-                    <CgMail />
+                    <CgMail  className="text-green-600 text-xl" />
                     <p>skynextsoft@gmail.com</p>
                   </div>
                 </div>

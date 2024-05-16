@@ -9,7 +9,7 @@ export default function ActivitiesAo() {
         AOS.init({
           duration: 1000,
           easing: "ease",
-          once:false
+          once:true
         });
         AOS.refresh();
       }, []);
