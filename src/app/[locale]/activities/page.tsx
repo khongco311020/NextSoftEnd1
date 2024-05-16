@@ -1,4 +1,4 @@
-import ActivitiesAo from "@/components/aos/aosactivity";
+
 import Carousel from "@/components/news/newsCarousel";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -34,7 +34,21 @@ export default function Activities() {
         <div className="background py-10">
           <div className="container">
             <div className="grid grid-cols-2 gap-5">
-              <ActivitiesAo/>
+            <div className="col-span-1" data-aos="fade-right">
+                <div className="flex container flex-col gap-5">
+                  <h1 className="text-2xl text-bold text-green-600 pb-5">
+                    CLB Chạy bộ
+                  </h1>
+                  <p>
+                    Nhằm tăng cường sức khỏe nhân viên SkyNextSoft luôn khuyến
+                    khích mọi người tập thể dục hàng ngày
+                  </p>
+                  <p>
+                    Chạy bộ hay đạp xe mà những môn thể thao mà công ty đưa ra
+                    giúp mọi người hòa mình với thiên nhiên, sáng tạo ý tưởng
+                  </p>
+                </div>
+              </div>
               <div className="col-span-1"data-aos="fade-left">
                 <div className="">
                   <Image
@@ -53,6 +67,7 @@ export default function Activities() {
           <div className="container">
             <div className="grid grid-cols-2 gap-5">
               <div className="col-span-1" data-aos="fade-right">
+                
                 <div className="">
                   <Image
                     src="/dabong.webp"
