@@ -42,10 +42,14 @@ export default function Blog() {
                 height={300}
                 className="w-2/6 h-24"
               />
-              <Link href="https://cafebiz.vn/cong-bo-5-so-tai-khoan-ngan-hang-co-dau-hieu-lua-dao-nguoi-dan-can-canh-giac-khi-giao-dich-176240514085257291.chn" target="_blank">
+              <Link
+                href="https://cafebiz.vn/cong-bo-5-so-tai-khoan-ngan-hang-co-dau-hieu-lua-dao-nguoi-dan-can-canh-giac-khi-giao-dich-176240514085257291.chn"
+                target="_blank"
+              >
                 <p className="font-medium hover:text-neutral-300">
                   {" "}
-                  Công bố 5 số tài khoản ngân hàng có dấu hiệu lừa đảo, người dân cần cảnh giác khi giao dịch!
+                  Công bố 5 số tài khoản ngân hàng có dấu hiệu lừa đảo, người
+                  dân cần cảnh giác khi giao dịch!
                 </p>
               </Link>
             </div>
@@ -57,10 +61,13 @@ export default function Blog() {
                 height={300}
                 className="w-2/6 h-auto"
               />
-              <Link href="https://cafebiz.vn/vnpt-duoc-binh-chon-nha-mang-yeu-thich-nhat-tai-vietnam-game-awards-2024-176240513191310132.chn" target="_blank">
+              <Link
+                href="https://cafebiz.vn/vnpt-duoc-binh-chon-nha-mang-yeu-thich-nhat-tai-vietnam-game-awards-2024-176240513191310132.chn"
+                target="_blank"
+              >
                 <p className="font-medium hover:text-neutral-300">
-                  
-                  VNPT được Bình chọn nhà mạng yêu thích nhất tại Vietnam Game Awards 2024
+                  VNPT được Bình chọn nhà mạng yêu thích nhất tại Vietnam Game
+                  Awards 2024
                 </p>
               </Link>
             </div>
@@ -72,10 +79,13 @@ export default function Blog() {
                 height={300}
                 className="w-2/6 h-auto"
               />
-              <Link href="https://cafebiz.vn/ket-qua-ban-dau-cua-mo-hinh-tra-luong-bang-nhan-dan-te-dien-tu-o-trung-quoc-176240513212400564.chn" target="_blank">
+              <Link
+                href="https://cafebiz.vn/ket-qua-ban-dau-cua-mo-hinh-tra-luong-bang-nhan-dan-te-dien-tu-o-trung-quoc-176240513212400564.chn"
+                target="_blank"
+              >
                 <p className="font-medium hover:text-neutral-300">
-                  
-                Kết quả ban đầu của mô hình trả lương bằng nhân dân tệ điện tử ở Trung Quốc
+                  Kết quả ban đầu của mô hình trả lương bằng nhân dân tệ điện tử
+                  ở Trung Quốc
                 </p>
               </Link>
             </div>
@@ -87,10 +97,13 @@ export default function Blog() {
                 height={300}
                 className="w-2/6 h-24"
               />
-              <Link href="https://cafebiz.vn/day-la-so-dien-thoai-lua-dao-chiem-doat-tien-tuyet-doi-khong-bat-may-khong-ket-ban-zalo-176240513160451328.chn" target="_blank">
+              <Link
+                href="https://cafebiz.vn/day-la-so-dien-thoai-lua-dao-chiem-doat-tien-tuyet-doi-khong-bat-may-khong-ket-ban-zalo-176240513160451328.chn"
+                target="_blank"
+              >
                 <p className="font-medium hover:text-neutral-300">
-                  
-                Đây là số điện thoại lừa đảo chiếm đoạt tiền, tuyệt đối không bắt máy, không kết bạn Zalo
+                  Đây là số điện thoại lừa đảo chiếm đoạt tiền, tuyệt đối không
+                  bắt máy, không kết bạn Zalo
                 </p>
               </Link>
             </div>
@@ -102,14 +115,16 @@ export default function Blog() {
                 height={300}
                 className="w-2/6 h-auto"
               />
-              <Link href="https://cafebiz.vn/vnpt-duoc-binh-chon-nha-mang-yeu-thich-nhat-tai-vietnam-game-awards-2024-176240513191310132.chn" target="_blank">
+              <Link
+                href="https://cafebiz.vn/vnpt-duoc-binh-chon-nha-mang-yeu-thich-nhat-tai-vietnam-game-awards-2024-176240513191310132.chn"
+                target="_blank"
+              >
                 <p className="font-medium hover:text-neutral-300">
-                  
-                  VNPT được Bình chọn nhà mạng yêu thích nhất tại Vietnam Game Awards 2024
+                  VNPT được Bình chọn nhà mạng yêu thích nhất tại Vietnam Game
+                  Awards 2024
                 </p>
               </Link>
             </div>
-            
           </div>
         </div>
         <div className="col-span-2  pb-4">
@@ -121,7 +136,10 @@ export default function Blog() {
               height={1000}
               className="w-full h-auto"
             />
-            <Link href="https://cafebiz.vn/vnpt-duoc-binh-chon-nha-mang-yeu-thich-nhat-tai-vietnam-game-awards-2024-176240513191310132.chn" target="_blank">
+            <Link
+              href="https://cafebiz.vn/vnpt-duoc-binh-chon-nha-mang-yeu-thich-nhat-tai-vietnam-game-awards-2024-176240513191310132.chn"
+              target="_blank"
+            >
               <p className="font-medium hover:text-neutral-300">
                 {" "}
                 Kế hoạch tiêm vaccine của TP HCM đến cuối năm ra sao?
@@ -211,7 +229,7 @@ export default function Blog() {
           </div>
         </div>
       </div>
-      <Carousel/>
+      <Carousel />
     </div>
   );
 }
