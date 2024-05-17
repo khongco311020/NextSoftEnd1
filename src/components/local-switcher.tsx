@@ -12,11 +12,6 @@ type Option = {
 
 type ValueType<OptionType> = OptionType | OptionType[] | null;
 
-type OptionType = {
-  value: string;
-  label: React.ReactNode;
-};
-
 export default function LocalSwitcher() {
   const [isPending, startTransition] = useTransition();
   const router = useRouter();
@@ -33,7 +28,7 @@ export default function LocalSwitcher() {
             width="20px"
             height="20px"
           />{" "}
-          {/* Eng */}
+          Eng
         </span>
       ),
     },
@@ -47,7 +42,7 @@ export default function LocalSwitcher() {
             width="20px"
             height="20px"
           />{" "}
-          {/* Vi */}
+          Vi
         </span>
       ),
     },
