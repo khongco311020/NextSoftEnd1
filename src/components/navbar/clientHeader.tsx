@@ -45,7 +45,7 @@ export default function ClientHeader({
             <h2
               className={` font-semibold ${isSticky ? "text-green-600" : ""}`}
             >
-              SkyNextSoft
+              SkyNext Soft
             </h2>
           </Link>
           {children}

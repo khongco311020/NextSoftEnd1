@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "@/components/navbar/header";
 import Footer from "@/components/footer/footer";
 
+import HomeIconn from "@/components/home/homeIcon";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +30,7 @@ export default function RootLayout({
         <div className="flex flex-col min-h-screen  mx-auto">
           <Header />
           <div className="flex-grow">{children}</div>
+          <HomeIconn/>
           
           <Footer />
         </div>
