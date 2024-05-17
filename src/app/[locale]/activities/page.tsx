@@ -4,7 +4,6 @@ import Image from "next/image";
 
 export default function Activities() {
   const t = useTranslations("ActivitiesPage");
-
   return (
     <div>
       <div className="">
@@ -19,7 +18,7 @@ export default function Activities() {
 
       <div className="flex flex-col gap-5 py-14">
         <h1 className="text-3xl font-semibold text-center text-green-600">
-          {t("title")}
+          SkyNext Soft
         </h1>
         <p className="text-center w-3/6 m-auto pb-10">{t("description")}</p>
         <div className="background py-10">
@@ -85,7 +84,46 @@ export default function Activities() {
           </div>
         </div>
       </div>
-      {/* <Carousel /> */}
+      <div className="container pb-10">
+        <h1 className="text-lg font-semibold text-green-600 py-5">
+          {t("news_title")}
+        </h1>
+        <div className="grid grid-cols-2 gap-6">
+          <div className="col-span-1">
+            <div className="flex gap-3">
+              <span className="w-1/5 text-slate-400">{t("date1")}</span>
+              <p className="w-3/4 hover:text-green-600 cursor-pointer">
+                {t("description1")}
+              </p>
+            </div>
+          </div>
+          <div className="col-span-1">
+            <div className="flex gap-3">
+              <span className="w-1/5 text-slate-400">{t("date2")}</span>
+              <p className="w-3/4 hover:text-green-600 cursor-pointer">
+                {t("description2")}
+              </p>
+            </div>
+          </div>
+          <div className="col-span-1">
+            <div className="flex gap-3">
+              <span className="w-1/5 text-slate-400 ">{t("date3")}</span>
+              <p className="w-3/4 hover:text-green-600 cursor-pointer">
+                {t("description3")}
+              </p>
+            </div>
+          </div>
+          <div className="col-span-1">
+            <div className="flex gap-3">
+              <span className="w-1/5 text-slate-400 ">{t("date4")}</span>
+              <p className="w-3/4 hover:text-green-600 cursor-pointer">
+                {t("description4")}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Carousel />
     </div>
   );
 }
