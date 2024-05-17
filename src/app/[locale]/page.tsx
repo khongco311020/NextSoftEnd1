@@ -65,7 +65,7 @@ export default function Home() {
             <div className="col-span-1">
               <div>
                 <h1 className="pb-3  text-3xl font-semibold text-green-600 ">
-                  SkyNextSoft
+                  SkyNext Soft
                 </h1>
                 <h2 className=" pb-5 text-lg font-light italic">
                   {h("bring")}
@@ -130,7 +130,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Carousel/>
+      <Carousel />
     </div>
   );
 }

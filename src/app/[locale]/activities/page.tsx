@@ -85,7 +85,7 @@ export default function Activities() {
           </div>
         </div>
       </div>
-      <Carousel />
+      {/* <Carousel /> */}
     </div>
   );
 }

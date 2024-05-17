@@ -12,10 +12,10 @@ export default function Footer() {
   return (
     <div className={styles.footerdistributed}>
       <div className={styles.footerLeft}>
-        <h3>SkyNextSoft</h3>
+        <h3>SkyNext Soft</h3>
         <FooterSocials />
         <p className={styles.footerCompanyName}>
-          © SkyNextSoft, JSC 2024. All rights reserved.
+          © SkyNext Soft, JSC 2024. All rights reserved.
         </p>
       </div>
       <div className={styles.footerCenter}>
