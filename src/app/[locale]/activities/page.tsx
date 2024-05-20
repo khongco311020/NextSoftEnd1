@@ -36,7 +36,7 @@ export default function Activities() {
               <div className="col-span-1" data-aos="fade-left">
                 <div className="">
                   <Image
-                    src="/chaybo.jpg"
+                    src="/access/activities/chaybo.jpg"
                     alt=""
                     width={1000}
                     height={1000}
@@ -53,7 +53,7 @@ export default function Activities() {
               <div className="col-span-1" data-aos="fade-right">
                 <div className="">
                   <Image
-                    src="/dabong.webp"
+                    src="/access/activities/dabong.webp"
                     alt=""
                     width={1000}
                     height={1000}

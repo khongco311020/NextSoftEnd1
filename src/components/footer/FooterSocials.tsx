@@ -9,7 +9,7 @@ const FooterSocials = () => {
       <Link href={`/`}>{t("home")}</Link>|
       <Link href={`/${locale}/about`}>{t("about")}</Link>|
       <Link href={`/${locale}/activities`}>{t("activities")}</Link>|
-      <Link href={`/${locale}/blog`}>{t("blog")}</Link>
+      <Link href={`/${locale}/service`}>{t("service")}</Link>
     </div>
   );
 };
