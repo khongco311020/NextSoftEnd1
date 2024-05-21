@@ -112,29 +112,32 @@ export default function About() {
                 </h2>
                 <div className="flex flex-col gap-3">
                   <div className="flex items-center gap-3">
-                    <IoLocationOutline className="text-green-600 text-xl"/>
+                    <IoLocationOutline className="text-green-600 text-xl" />
                     <p>{t("address")}</p>
                   </div>
-                  <div className="flex items-center gap-3">
-                    <MdOutlineSettingsPhone  className="text-green-600 text-xl" />
+                  <a
+                    href="tel:038 865 6026"
+                    className="flex items-center gap-3"
+                  >
+                    <MdOutlineSettingsPhone className="text-green-600 text-xl" />
                     <p>+84 366 888 666</p>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <CgMail  className="text-green-600 text-xl" />
+                  </a>
+                  <a
+                    href="mailto:nguyenthien252025@gmail.com"
+                    className="flex items-center gap-3"
+                  >
+                    <CgMail className="text-green-600 text-xl" />
                     <p>skynextsoft@gmail.com</p>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="col-span-1">
-            <div className="">{<Googlemap />}</div>
+              <div className="">{<Googlemap />}</div>
             </div>
           </div>
-
-          
         </div>
       </div>
-      
     </div>
   );
 }

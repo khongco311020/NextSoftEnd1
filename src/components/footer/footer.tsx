@@ -25,18 +25,21 @@ export default function Footer() {
           </div>
           <p>{t("address")}</p>
         </div>
-        <div className="flex items-center">
+        <a href="tel:038 865 6026" className="flex items-center">
           <div className={styles.iconReact}>
             <MdOutlineSettingsPhone />
           </div>
           <p>+84 366 888 666</p>
-        </div>
-        <div className="flex items-center">
+        </a>
+        <a
+          href="mailto:nguyenthien252025@gmail.com"
+          className="flex items-center"
+        >
           <div className={styles.iconReact}>
             <CgMail />
           </div>
           <p>skynextsoft@gmail.com</p>
-        </div>
+        </a>
       </div>
       <div className={styles.footerRight}>
         <div className={styles.textRight}>

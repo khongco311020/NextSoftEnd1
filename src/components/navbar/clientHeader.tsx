@@ -42,11 +42,7 @@ export default function ClientHeader({
               height={40}
               className="imglogo"
             />
-            <h2
-              className={` font-semibold ${isSticky ? "text-green-600" : ""}`}
-            >
-              SkyNext Soft
-            </h2>
+            <h2 className="font-semibold text-green-600">SkyNext Soft</h2>
           </Link>
           {children}
         </nav>
