@@ -12,10 +12,10 @@ export default function Footer() {
   return (
     <div className={styles.footerdistributed}>
       <div className={styles.footerLeft}>
-        <h3>SkyNextSoft</h3>
+        <h3>SkyNext Soft</h3>
         <FooterSocials />
         <p className={styles.footerCompanyName}>
-          © SkyNextSoft, JSC 2024. All rights reserved.
+          © SkyNext Soft, JSC 2024. All rights reserved.
         </p>
       </div>
       <div className={styles.footerCenter}>
@@ -31,12 +31,15 @@ export default function Footer() {
           </div>
           <p>+84 366 888 666</p>
         </div>
+        <a href="mailto:skynextsoft@gmail.com">
         <div className="flex items-center">
           <div className={styles.iconReact}>
             <CgMail />
           </div>
           <p>skynextsoft@gmail.com</p>
         </div>
+        </a>
+        
       </div>
       <div className={styles.footerRight}>
         <div className={styles.textRight}>

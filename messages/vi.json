@@ -15,7 +15,7 @@
     "service": "Dịch vụ"
   },
   "Footer": {
-    "copyright": " © SkyNextSoft, JSC 2024. All rights reserved.",
+    "copyright": " © SkyNext Soft, JSC 2024. All rights reserved.",
     "Aboutthecompany": "Về Công Ty",
     "companyDescription": "Chúng tôi tạo ra những ý tưởng kỹ thuật số lớn hơn, táo bạo hơn, dũng cảm hơn và tốt hơn. Chúng tôi tin vào tính linh hoạt và chính xác của những ý tưởng hay. Chúng tôi là Nhà cung cấp giải pháp tài chính và tư vấn tốt nhất trên thế giới. Dịch vụ phát triển phần mềm và web đa dạng.",
     "address": "Số 7, Dãy 2, Ngõ 651 Minh Khai, Hai Bà Trưng, Hà Nội"
@@ -39,8 +39,8 @@
     "description": "Mô tả về trang giới thiệu",
     "companyName": "Skynext Soft",
     "companyDescription": "Chúng tôi tạo ra những ý tưởng kỹ thuật số lớn hơn, táo bạo hơn, dũng cảm hơn và tốt hơn. Chúng tôi tin vào tính linh hoạt và chính xác của những ý tưởng hay. Chúng tôi là Nhà cung cấp giải pháp tài chính và tư vấn tốt nhất trên thế giới. Dịch vụ phát triển phần mềm và web đa dạng.",
-    "workplace": "Nơi làm việc của đông đảo chuyên gia và kỹ sư",
-    "scale": "Quy mô 200 nhân sự và 100% dự án làm về React",
+    "workplace": "Nơi làm việc của các chuyên gia và kỹ sư",
+    "scale": "Quy mô nhân sự đông đảo và trang thiết bị hiện đại",
     "training": "Nơi tổ chức miễn phí các khoá đào tạo, sự kiện về React với chuyên gia trong nước và quốc tế",
     "visionTitle": "Tầm nhìn",
     "visionDescription": "Khẳng định vị trí tiên phong với vai trò là công ty đầu tiên và lớn nhất chuyên về React trên thị trường.",
@@ -57,40 +57,53 @@
   "ServicePage": {
     "title": "Dịch vụ của chúng tôi",
     "web_design": "Thiết kế Website",
-    "web_design_description": "Thiết kế website là quá trình tạo ra giao diện và trải nghiệm người dùng của một trang web...",
+    "web_design_description": "Thiết kế website không chỉ đơn thuần là việc tạo ra một trang web, mà còn là quá trình tạo ra một trải nghiệm tuyệt vời cho người dùng. Chúng tôi hiểu rằng một trang web không chỉ cần đẹp mắt mà còn phải thân thiện với người dùng và chức năng. Do đó, chúng tôi tiến hành phân tích kỹ lưỡng và nghiên cứu yêu cầu của khách hàng để đảm bảo rằng mỗi trang web mà chúng tôi tạo ra là một tác phẩm nghệ thuật kỹ thuật số. Các dịch vụ của chúng tôi bao gồm:",
     "web_design_item1": "Phân tích và nghiên cứu yêu cầu của khách hàng Thiết kế giao diện đồ họa (UI/UX)",
     "web_design_item2": "Xây dựng trang web bằng các công nghệ hiện đại (HTML, CSS, JavaScript)",
     "web_design_item3": "Tối ưu hóa trang web cho thiết bị di động (responsive design)",
     "web_design_item4": "Tối ưu hóa SEO để cải thiện thứ hạng tìm kiếm",
     "system_design": "Thiết kế Hệ thống",
-    "system_design_description": "Thiết kế hệ thống là quá trình lập kế hoạch và cấu trúc các thành phần của hệ thống thông tin để đáp ứng các yêu cầu cụ thể của một tổ chức hoặc doanh nghiệp...",
+    "system_design_description": "Thiết kế hệ thống là một quá trình quan trọng trong việc xây dựng một hệ thống thông tin hiệu quả và linh hoạt. Chúng tôi không chỉ tập trung vào việc xây dựng một hệ thống hoạt động, mà còn chú trọng vào việc tạo ra một cơ sở hạ tầng mạnh mẽ và linh hoạt để đáp ứng các yêu cầu của doanh nghiệp. Các dịch vụ của chúng tôi bao gồm:",
     "system_design_item1": "Đảm bảo tính khả dụng và tin cậy",
     "system_design_item2": "Đáp ứng yêu cầu hiệu suất và mở rộng",
     "system_design_item3": "Bảo mật thông tin và dữ liệu",
     "system_design_item4": "Tích hợp với các hệ thống hiện có",
     "it_solution": "Giải pháp CNTT",
-    "it_solution_description": "Giải pháp Công nghệ Thông tin (CNTT) là việc áp dụng công nghệ để giải quyết các vấn đề kinh doanh và cải thiện hiệu quả hoạt động của doanh nghiệp...",
+    "it_solution_description": "Giải pháp CNTT không chỉ là việc triển khai công nghệ, mà còn là việc áp dụng công nghệ để giải quyết các thách thức kinh doanh và cải thiện hiệu quả hoạt động của doanh nghiệp. Chúng tôi cung cấp các giải pháp CNTT bao gồm:",
     "it_solution_item1": "Tối ưu hóa quy trình kinh doanh",
     "it_solution_item2": "Cải thiện năng suất và hiệu quả làm việc",
     "it_solution_item3": "Tăng cường bảo mật và quản lý rủi ro",
     "it_solution_item4": "Hỗ trợ ra quyết định thông minh dựa trên dữ liệu",
     "mobile_app_design": "Thiết kế App Mobile",
-    "mobile_app_design_description": "Thiết kế ứng dụng di động (Mobile App) là quá trình tạo ra các ứng dụng phần mềm chạy trên thiết bị di động như điện thoại thông minh và máy tính bảng...",
+    "mobile_app_design_description": "Thiết kế ứng dụng di động là quá trình tạo ra các ứng dụng phần mềm chạy trên các thiết bị di động như điện thoại thông minh và máy tính bảng. Chúng tôi cung cấp các dịch vụ thiết kế ứng dụng di động bao gồm:",
     "mobile_app_design_item1": "Cung cấp trải nghiệm người dùng tuyệt vời",
     "mobile_app_design_item2": "Tương thích với nhiều loại thiết bị và kích thước màn hình",
     "mobile_app_design_item3": "Hiệu suất mượt mà và ổn định",
     "mobile_app_design_item4": "Bảo mật và bảo vệ dữ liệu người dùng"
   },
   "ActivitiesPage": {
-    "title": "SkyNextSoft",
+    "title": "SkyNext Soft",
     "description": "Là nơi mà nhân viên luôn được quan tâm sức khỏe, thỏa mái sáng tạo, khuyến khích đóng góp và pháp triển ý tưởng. Mục đích hướng tới đào tạo, phát triển nhân viên.",
     "running_club_title": "CLB Chạy bộ",
-    "running_club_description1": "Nhằm tăng cường sức khỏe nhân viên SkyNextSoft luôn khuyến khích mọi người tập thể dục hàng ngày.",
+    "running_club_description1": "Nhằm tăng cường sức khỏe nhân viên SkyNext Soft luôn khuyến khích mọi người tập thể dục hàng ngày.",
     "running_club_description2": "Chạy bộ hay đạp xe mà những môn thể thao mà công ty đưa ra giúp mọi người hòa mình với thiên nhiên, sáng tạo ý tưởng.",
     "soccer_club_title": "CLB đá bóng",
-    "soccer_club_description1": "Nhằm tăng cường sức khỏe cũng như gắn kết giữa các nhân viên công ty hàng tuần SkyNextSoft sẽ có những trận bóng giao lưu.",
+    "soccer_club_description1": "Nhằm tăng cường sức khỏe cũng như gắn kết giữa các nhân viên công ty hàng tuần SkyNext Soft sẽ có những trận bóng giao lưu.",
     "soccer_club_description2": "Đá bóng là môn thể thao đối kháng và đồng đội luôn mang lại cho bạn cảm giác mạng mẽ mỗi khi ra sân và đặc biết là giải lao sau khi ngồi làm việc 8 tiếng.",
     "happy_hour_title": "Happy Hour",
-    "happy_hour_description": "Khoảng thời gian nhân viên nghỉ giải lao ăn hoa quả là lúc mọi người tụ tập cùng nhau nói chuyện,trao đổi, thư gian đầu óc đặc biết là giúp đôi mắt được nghỉ ngơi sau quãng thời dài tập chung vào màn hình."
+    "happy_hour_description": "Khoảng thời gian nhân viên nghỉ giải lao ăn hoa quả là lúc mọi người tụ tập cùng nhau nói chuyện,trao đổi, thư gian đầu óc đặc biết là giúp đôi mắt được nghỉ ngơi sau quãng thời dài tập chung vào màn hình.",
+
+    "news_title": "Tin tức về công ty",
+    "date1": "8-3-2024",
+    "description1": "Nhân ngày Quốc tế Phụ nữ công ty có tổ chức một bữa tiệc để chúc tốt đẹp nhất đến nửa kia của thế giới",
+
+    "date2": "20-4-2024",
+    "description2": "Nhân viên của SkyNext Soft sẽ được nghỉ lễ từ ngày 30 tháng 4 năm 2024 thứ 3 hết ngày 1 tháng 5 năm 2024 thứ 4. Công ty sẽ hoạt động trở lại bình thường vào ngày 2 tháng 5 năm 2024 thứ 5. Chúc mọi người có một kì nghỉ vui vẻ hạnh phúc bên gia đình",
+
+    "date3": "18-4-2024",
+    "description3": "Ngày 18 tháng 4 năm 2024 nhân viên sẽ được nghỉ dịp Giỗ tổ Hùng Vương chúc mọi người có kì nghỉ lễ vui vẻ",
+
+    "date4": "30-1-2024",
+    "description4": "Nhân viên SkyNext Soft được nghỉ lễ Tết Nguyên Đán từ ngày 8 tháng 2 đến 14 tháng 2 năm 2024 ngày 15 tháng 2 sẽ quay trở lại làm việc bình thường. Chúc mọi người một năm mới bình an, an khang thịnh vượng"
   }
 }

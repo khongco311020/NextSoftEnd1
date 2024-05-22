@@ -10,8 +10,13 @@ function classNames(...classes: any) {
 }
 
 export default function MenuNavbar() {
-  // const t = useTranslations("Home");
   const locale = useLocale();
+  const menuWebsite = locale === "vi" ? "Thiết kế Website" : "Website design";
+  const menuSystem = locale === "vi" ? "Thiết kế hệ thống" : "System desig";
+  const menusolutions = locale === "vi" ? "Giải pháp CNTT" : "IT solutions";
+  const menuMobile =
+    locale === "vi" ? "Thiết kế App Mobile" : "Mobile App Design";
+
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
@@ -43,7 +48,7 @@ export default function MenuNavbar() {
                     "block px-4 py-2 text-sm border-b"
                   )}
                 >
-                  Web
+                  {menuWebsite}
                 </Link>
               )}
             </Menu.Item>
@@ -56,7 +61,7 @@ export default function MenuNavbar() {
                     "block px-4 py-2 text-sm border-b"
                   )}
                 >
-                  System
+                  {menuSystem}
                 </Link>
               )}
             </Menu.Item>
@@ -69,7 +74,7 @@ export default function MenuNavbar() {
                     "block px-4 py-2 text-sm border-b"
                   )}
                 >
-                  Solutions
+                  {menusolutions}
                 </Link>
               )}
             </Menu.Item>
@@ -83,7 +88,7 @@ export default function MenuNavbar() {
                       "block w-full px-4 py-2 text-left text-sm border-b"
                     )}
                   >
-                    Mobile
+                    {menuMobile}
                   </Link>
                 )}
               </Menu.Item>

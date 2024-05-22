@@ -75,7 +75,7 @@ const Service = () => {
           </ul>
         </section>
       </div>
-      <Carousel/>
+      <Carousel />
     </div>
   );
 };

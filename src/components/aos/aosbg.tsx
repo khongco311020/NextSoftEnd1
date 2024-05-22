@@ -9,13 +9,13 @@ export default function AosBg() {
     AOS.init({
       duration: 1000,
       easing: "ease",
-      once:false
+      once: false,
     });
     AOS.refresh();
   }, []);
 
   return (
-    <div className=" pb-5 " >
+    <div className=" pb-5 pt-2 ">
       <Image
         src="/logo-removebg - Copy.png"
         alt=""
@@ -24,13 +24,22 @@ export default function AosBg() {
         className=" m-auto pt-8 w-2/12 h-auto"
         data-aos="fade-right"
       />
-      <h1 className="text-green-500 font-bold text-center text-4xl pb-4" data-aos="fade-left">
-        SKYNEXTSOFT
+      <h1
+        className="text-green-500 font-bold text-center text-4xl pb-4"
+        data-aos="fade-left"
+      >
+        SKYNEXT SOFT
       </h1>
-      <p className="text-center text-sky-600 text-2xl pb-4 p-1" data-aos="fade-right">
+      <p
+        className="text-center text-sky-600 text-2xl pb-4 p-1"
+        data-aos="fade-right"
+      >
         CODING THE FUTURE
       </p>
-      <h1 className="text-green-500 font-bold text-center text-3xl" data-aos="fade-left">
+      <h1
+        className="text-green-500 font-bold text-center text-3xl"
+        data-aos="fade-left"
+      >
         SMART - SPEED - STRONG - SECURE
       </h1>
     </div>

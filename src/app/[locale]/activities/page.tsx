@@ -4,7 +4,6 @@ import Image from "next/image";
 
 export default function Activities() {
   const t = useTranslations("ActivitiesPage");
-
   return (
     <div>
       <div className="">
@@ -37,7 +36,7 @@ export default function Activities() {
               <div className="col-span-1" data-aos="fade-left">
                 <div className="">
                   <Image
-                    src="/chaybo.jpg"
+                    src="/access/activities/chaybo.jpg"
                     alt=""
                     width={1000}
                     height={1000}
@@ -54,7 +53,7 @@ export default function Activities() {
               <div className="col-span-1" data-aos="fade-right">
                 <div className="">
                   <Image
-                    src="/dabong.webp"
+                    src="/access/activities/dabong.webp"
                     alt=""
                     width={1000}
                     height={1000}
@@ -86,45 +85,39 @@ export default function Activities() {
         </div>
       </div>
       <div className="container pb-10">
-        <h1 className="text-lg font-semibold text-green-600 py-5">Tin tức về công ty</h1>
+        <h1 className="text-lg font-semibold text-green-600 py-5">
+          {t("news_title")}
+        </h1>
         <div className="grid grid-cols-2 gap-6">
           <div className="col-span-1">
             <div className="flex gap-3">
-              <span className="w-1/5 text-slate-400">8-3-2024</span>
+              <span className="w-1/5 text-slate-400">{t("date1")}</span>
               <p className="w-3/4 hover:text-green-600 cursor-pointer">
-                Nhân ngày Quốc tế Phụ nữ công ty có tổ chức một bữa tiệc để chúc
-                tốt đẹp nhất đến nửa kia của thế giới
+                {t("description1")}
               </p>
             </div>
           </div>
           <div className="col-span-1">
             <div className="flex gap-3">
-              <span className="w-1/5 text-slate-400">20-4-2024</span>
+              <span className="w-1/5 text-slate-400">{t("date2")}</span>
               <p className="w-3/4 hover:text-green-600 cursor-pointer">
-                Nhân viên của SkyNext Soft sẻ được nghỉ lễ từ ngày 30 tháng 4
-                năm 2024 thứ 3 hết ngày 1 tháng 5 năm 2024 thứ 4. Công ty sẽ
-                hoạt động trở lại bình thường vào ngày 2 tháng 5 năm 2024 thứ 5.
-                Chúc mọi người có một kì nghỉ vui vẻ hạnh phúc bên gia đình
+                {t("description2")}
               </p>
             </div>
           </div>
           <div className="col-span-1">
             <div className="flex gap-3">
-              <span className="w-1/5 text-slate-400 ">18-4-2024</span>
+              <span className="w-1/5 text-slate-400 ">{t("date3")}</span>
               <p className="w-3/4 hover:text-green-600 cursor-pointer">
-                Ngày 18 tháng 4 năm 2024 nhân viên sẽ được nghỉ dịp Giỗ tổ Hùng
-                Vương chúc mọi người có kì nghỉ lễ vui vẻ
+                {t("description3")}
               </p>
             </div>
           </div>
           <div className="col-span-1">
             <div className="flex gap-3">
-              <span className="w-1/5 text-slate-400 ">30-1-2024</span>
+              <span className="w-1/5 text-slate-400 ">{t("date4")}</span>
               <p className="w-3/4 hover:text-green-600 cursor-pointer">
-                Nhân viên SKyNext Soft được nghỉ lễ Tết Nguyên Đán từ ngày 8
-                tháng 2 đến 14 tháng 2 năm 2024 ngày 15 tháng 2 sẽ quay trở lại
-                làm việc bình thường. Chúc mọi người một năm mới bình an, an
-                khang thịnh vượng
+                {t("description4")}
               </p>
             </div>
           </div>

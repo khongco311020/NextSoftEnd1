@@ -39,18 +39,42 @@ const Carousel = () => {
         modules={[Pagination, Navigation, A11y, Autoplay]}
         loop={true}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
+        breakpoints={{
+          400:{
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },  
+
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+          1228:{
+            slidesPerView: 4,
+            spaceBetween: 50,
+          }
+        }}
+        
         // mousewheel={true}
-        className="my-5"
+        className="my-5 "
       >
         <SwiperSlide>
           <Link
-            href="https://www.24h.com.vn/thoi-trang-hi-tech/samsung-da-co-vu-khi-cuc-manh-cho-smartphone-cao-...55.html"
+            href="https://vnexpress.net/nguy-co-bi-danh-cap-giong-noi-4747749.html"
             target="_blank"
           >
             <div>
               <div>
                 <Image
-                  src="/vinsmart.jpg"
+                  src="/access/news/giongnoi.jpg"
                   alt=""
                   width={1000}
                   height={1000}
@@ -58,8 +82,7 @@ const Carousel = () => {
                 />
               </div>
               <h3 className="pt-4 font-medium hover:text-neutral-300">
-                Động thái mới của Vingroup để tái cấu trúc công ty sản xuất điện
-                thoại di động VinSmart
+                Nguy cơ bị 'đánh cắp' giọng nói
               </h3>
             </div>
           </Link>
@@ -72,7 +95,7 @@ const Carousel = () => {
             <div>
               <div>
                 <Image
-                  src="/ai.webp"
+                  src="/access/news/ai.webp"
                   alt=""
                   width={1000}
                   height={1000}
@@ -88,13 +111,13 @@ const Carousel = () => {
 
         <SwiperSlide>
           <Link
-            href="https://cafebiz.vn/lo-hong-nghiem-trong-khien-hon-50000-may-chu-co-nguy-co-bi-tan-cong-17624...28.chn"
+            href="https://vietnamnet.vn/chieu-nay-bill-gates-an-do-se-gap-go-gioi-cong-nghe-viet-nam-2282519.html"
             target="_blank"
           >
             <div>
               <div>
                 <Image
-                  src="/taxi.webp"
+                  src="/access/news/ando.jpg"
                   alt=""
                   width={1000}
                   height={1000}
@@ -102,8 +125,7 @@ const Carousel = () => {
                 />
               </div>
               <h3 className="pt-4 font-medium hover:text-neutral-300">
-                Taxi điện mini đầu tiên tại Việt Nam tung ảnh ra quân: giá cước
-                từ 8.000 đồng/km, thuê tự lái 450.000 đồng/ngày
+                Chiều nay, “Bill Gates Ấn Độ” sẽ gặp gỡ giới công nghệ Việt Nam
               </h3>
             </div>
           </Link>
@@ -117,7 +139,7 @@ const Carousel = () => {
             <div>
               <div>
                 <Image
-                  src="/bitcoin.webp"
+                  src="/access/news/bitcoin.webp"
                   alt=""
                   width={1000}
                   height={1000}
@@ -138,7 +160,7 @@ const Carousel = () => {
             <div>
               <div>
                 <Image
-                  src="/vinfast.webp"
+                  src="/access/news/shoppee.png"
                   alt=""
                   width={1000}
                   height={1000}
@@ -146,8 +168,7 @@ const Carousel = () => {
                 />
               </div>
               <h3 className="pt-4 font-medium hover:text-neutral-300">
-                Hình ảnh đầu tiên của loạt xe VF 3 'bằng xương bằng thịt' tại
-                nhà máy VinFast Hải Phòng
+                Google tung 'vũ khí' AI mới, Shopee lập kỷ lục doanh thu
               </h3>
             </div>
           </Link>

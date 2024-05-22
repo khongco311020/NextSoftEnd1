@@ -1,5 +1,6 @@
 .wrap {
   color: var(--textSoft);
+
 }
 .wrapCl {
   display: flex;
@@ -19,7 +20,7 @@
 
 .image {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 460px;
   overflow: hidden;
 }

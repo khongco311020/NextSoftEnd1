@@ -1,9 +1,9 @@
 "use client";
 
 import { useLocale } from "next-intl";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useTransition } from "react";
-import Select from "react-select";
+import Select, { components } from "react-select";
 
 type Option = {
   value: string;
@@ -11,43 +11,40 @@ type Option = {
 };
 
 type ValueType<OptionType> = OptionType | OptionType[] | null;
-
-type OptionType = {
-  value: string;
-  label: React.ReactNode;
-};
-
+// const DropdownIndicator = () => null;
+// const IndicatorSeparator = () => null;
 export default function LocalSwitcher() {
   const [isPending, startTransition] = useTransition();
   const router = useRouter();
-  const localActive = useLocale();
+  const localeActive = useLocale();
+  const pathname = usePathname();
 
   const options = [
     {
       value: "en",
       label: (
-        <span className="flex gap-3 ">
+        <span className="flex gap-3 text-red-300">
           <img
-            src="/access/img/england.png"
+            src="/access/flags/england.png"
             alt="English"
             width="20px"
             height="20px"
           />{" "}
-          {/* Eng */}
+          En
         </span>
       ),
     },
     {
       value: "vi",
       label: (
-        <span className="flex gap-2">
+        <span className="flex gap-3 text-red-300">
           <img
-            src="/access/img/vietnam.png"
+            src="/access/flags/vietnam.png"
             alt="Vietnam"
-            width="20px"
-            height="20px"
+            width="21px"
+            height="21px"
           />{" "}
-          {/* Vi */}
+          Vi
         </span>
       ),
     },
@@ -56,8 +53,13 @@ export default function LocalSwitcher() {
   const onSelectChange = (selectedOption: ValueType<Option>) => {
     if (selectedOption && !Array.isArray(selectedOption)) {
       const value = selectedOption.value;
+
+      // Tách phần ngôn ngữ hiện tại ra khỏi pathname
+      const currentPathWithoutLocale = pathname.replace(`/${localeActive}`, "");
+
       startTransition(() => {
-        router.replace(`/${value}`);
+        // Chuyển hướng tới URL mới với ngôn ngữ được chọn
+        router.replace(`/${value}${currentPathWithoutLocale}`);
       });
     }
   };
@@ -66,7 +68,7 @@ export default function LocalSwitcher() {
     <label>
       <p className="sr-only">change language</p>
       <Select
-        defaultValue={options.find((option) => option.value === localActive)}
+        defaultValue={options.find((option) => option.value === localeActive)}
         options={options}
         onChange={onSelectChange}
         isDisabled={isPending}
