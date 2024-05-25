@@ -2,12 +2,27 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 export default function ClientHeader({
   children,
 }: {
   children: React.ReactNode;
 }) {
   const [isSticky, setIsSticky] = useState(false);
+  const [isChange, setIsChange] = useState(false);
+  const url = usePathname();
+
+  useEffect(() => {
+    if (url == "/vi") {
+      setIsChange(true);
+    } else if (url == "/en") {
+      setIsChange(true);
+    } else {
+      setIsChange(false);
+    }
+  }, [url]);
+  console.log(url);
+  console.log(isChange);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -43,7 +58,9 @@ export default function ClientHeader({
               className="imglogo"
             />
             <h2
-              className={` font-semibold ${isSticky ? "text-green-600" : ""}`}
+              className={` font-semibold ${isChange ? "hidden" : ""} ${
+                isSticky ? "text-green-600 !block" : ""
+              }`}
             >
               SkyNext Soft
             </h2>
