@@ -5,12 +5,14 @@ import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import FooterSocials from "./FooterSocials";
 import styles from "./footer.module.css";
 import { MdOutlineSettingsPhone } from "react-icons/md";
+import HomeIconn from "../home/homeIcon";
 
 export default function Footer() {
   const t = useTranslations("Footer");
 
   return (
     <div className={styles.footerdistributed}>
+      
       <div className={styles.footerLeft}>
         <h3>SkyNext Soft</h3>
         <FooterSocials />

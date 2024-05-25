@@ -34,7 +34,7 @@ const HomeIconn = () => {
     };
   }, []);
   return (
-    <div className="fixed right-1.5 bottom-1/4">
+    <div className="fixed right-1 bottom-1/4 z-50">
       <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         <Link href={`/${locale}/about`}>
           <div

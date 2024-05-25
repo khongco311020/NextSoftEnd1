@@ -36,8 +36,12 @@ export default function RootLayout({
   
   return (
     <html lang={locale}>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+      </head>
       <body className={inter.className}>
-        <div className="flex flex-col min-h-screen w-screen  mx-auto ">
+        <div className="flex flex-col  w-full  ">
           <Header/>         
           <div className="flex-grow">{children}</div>
           <HomeIconn/>

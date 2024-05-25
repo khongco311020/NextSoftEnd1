@@ -27,7 +27,8 @@ const Carousel = () => {
   // }, []);
 
   return (
-    <div className="swiper-container  container">
+    <div className="w-screen">
+      <div className="swiper-container  container">
       <h2 className="text-lg font-semibold text-green-600">Tin tức mới</h2>
       <Swiper
         pagination={{ dynamicBullets: true, clickable: true }}
@@ -40,13 +41,13 @@ const Carousel = () => {
         loop={true}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
         breakpoints={{
-          400:{
+          300:{
             slidesPerView: 1,
             spaceBetween: 20,
           },  
 
-          640: {
-            slidesPerView: 1,
+          450: {
+            slidesPerView: 2,
             spaceBetween: 20,
           },
           768: {
@@ -175,6 +176,8 @@ const Carousel = () => {
         </SwiperSlide>
       </Swiper>
     </div>
+    </div>
+    
   );
 };
 export default Carousel;

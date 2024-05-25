@@ -65,15 +65,17 @@ export default function LocalSwitcher() {
   };
 
   return (
-    <label>
-      <p className="sr-only">change language</p>
-      <Select
-        defaultValue={options.find((option) => option.value === localeActive)}
-        options={options}
-        onChange={onSelectChange}
-        isDisabled={isPending}
-        className="bg-transparent py-2"
-      />
-    </label>
+    <div className="pr-10 max-lg:pr-4 ">
+      <label>
+        <p className="sr-only">change language</p>
+        <Select
+          defaultValue={options.find((option) => option.value === localeActive)}
+          options={options}
+          onChange={onSelectChange}
+          isDisabled={isPending}
+          className="bg-transparent py-2"
+        />
+      </label>
+    </div>
   );
 }

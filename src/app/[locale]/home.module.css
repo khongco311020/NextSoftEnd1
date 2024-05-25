@@ -1,6 +1,7 @@
 .wrap {
   color: var(--textSoft);
 
+
 }
 .wrapCl {
   display: flex;
@@ -135,4 +136,11 @@
     padding-right: 20px;
   }
 }
+.imagebgg {
+  width: 100%;
+  height: auto;
+}
+
+
+
 
