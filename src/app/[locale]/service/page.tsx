@@ -1,9 +1,11 @@
 import Carousel from "@/components/news/newsCarousel";
+
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 const Service = () => {
   const t = useTranslations("ServicePage");
+  
 
   const servicesData = [
     {
@@ -61,6 +63,7 @@ const Service = () => {
 
   return (
     <div className="">
+      
       <Image
         src="/bg.jpg"
         alt=""

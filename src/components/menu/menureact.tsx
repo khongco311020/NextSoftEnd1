@@ -1,21 +1,33 @@
 "use client";
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/16/solid";
 import { useLocale } from "next-intl";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import ClientHeader from "../navbar/clientHeader";
+
 
 function classNames(...classes: any) {
   return classes.filter(Boolean).join(" ");
 }
 
 export default function MenuNavbar() {
+
+
   const locale = useLocale();
   const menuWebsite = locale === "vi" ? "Thiết kế Website" : "Website design";
   const menuSystem = locale === "vi" ? "Thiết kế hệ thống" : "System desig";
   const menusolutions = locale === "vi" ? "Giải pháp CNTT" : "IT solutions";
   const menuMobile =
     locale === "vi" ? "Thiết kế App Mobile" : "Mobile App Design";
+
+    const route = useRouter()
+    const clickWebsite  = () =>{
+      route.replace('/item1')
+    }
+
+
 
   return (
     <Menu as="div" className="relative inline-block text-left">
@@ -47,6 +59,8 @@ export default function MenuNavbar() {
                     active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                     "block px-4 py-2 text-sm border-b"
                   )}
+                  
+                  
                 >
                   {menuWebsite}
                 </Link>

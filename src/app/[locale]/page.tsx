@@ -15,53 +15,53 @@ export default function Home() {
 
   return (
     <div className={styles.wrap}>
-      <div className="w-full h-5/6 bg-slate-300">
+      <div className=" h-5/6 bg-slate-300">
         <AosBg />
       </div>
 
-      <div className="py-14 background">
-        <h1 className="pb-4 text-center text-3xl font-semibold text-green-600">
+      <div className="py-14 ">
+        <h1 className="pb-4 text-center text-3xl font-semibold text-slate-800 w-4/5 m-auto">
           {h("value")}
         </h1>
-        <p className="text-center pb-14 text-lg font-light italic">
+        <p className="text-center pb-14 text-lg font-light italic w-4/5 m-auto">
           {h("contentValue")}
         </p>
         <div className="container " data-aos="fade-down">
-          <div className="flex gap-6 ">
-            <div className="column-3 flex items-center flex-col gap-3 shadow-lg p-5 py-9 bg-white hover:shadow-2xl w-1/4">
+          <div className="grid grid-cols-4 gap-10 max-xl:grid-cols-3 max-lg:grid-cols-3 max-md:grid-cols-2 ">
+            <div className="col-span-1 flex items-center flex-col gap-3 shadow-lg p-5 py-9 bg-white hover:shadow-2xl ">
               <div className="text-6xl text-green-600">
                 <GiSmart />
               </div>
               <h2 className=" text-lg font-semibold">Smart</h2>
-              <span className="text-center p-5 ">{h("smart")}</span>
+              <span className="text-justify p-5 ">{h("smart")}</span>
             </div>
-            <div className="column-3 flex items-center flex-col gap-3 shadow-lg p-5 py-9  bg-white hover:shadow-2xl w-1/4">
+            <div className="col-span-1 flex items-center flex-col gap-3 shadow-lg p-5 py-9  bg-white hover:shadow-2xl ">
               <div className="text-6xl text-green-600">
                 <IoSpeedometer />
               </div>
               <h2 className=" text-lg font-semibold">Speed</h2>
-              <p className="text-center p-5">{h("speed")}</p>
+              <p className="text-justify p-5">{h("speed")}</p>
             </div>
-            <div className="column-3 flex items-center flex-col gap-3 shadow-lg p-5 py-9  bg-white hover:shadow-2xl w-1/4">
+            <div className="col-span-1 flex items-center flex-col gap-3 shadow-lg p-5 py-9  bg-white hover:shadow-2xl ">
               <div className="text-6xl text-green-600">
                 <GiStrong />
               </div>
               <h2 className=" text-lg font-semibold ">Strong</h2>
-              <p className="text-center p-5">{h("strong")}</p>
+              <p className="text-justify p-5">{h("strong")}</p>
             </div>
-            <div className="column-3 flex items-center flex-col gap-3 shadow-lg p-5 py-9  bg-white hover:shadow-2xl w-1/4">
+            <div className="col-span-1 flex items-center flex-col gap-3 shadow-lg p-5 py-9  bg-white hover:shadow-2xl ">
               <div className="text-6xl text-green-600">
                 <GrSecure />
               </div>
               <h2 className=" text-lg font-semibold">Secure</h2>
-              <p className="text-center p-5">{h("secure")}</p>
+              <p className="text-justify p-5">{h("secure")}</p>
             </div>
           </div>
         </div>
       </div>
-      <div className="background py-14">
+      <div className="background py-14 w-screen">
         <div className="container">
-          <div className="grid grid-cols-2 gap-5">
+          <div className="grid grid-cols-2 gap-5 max-md:grid-cols-1">
             <div className="col-span-1">
               <div>
                 <h1 className="pb-3  text-3xl font-semibold text-green-600 ">

@@ -1,12 +1,14 @@
 .footerdistributed {
   background-color: #2d2a30;
   box-sizing: border-box;
-  widows: 100%;
+  width: 100vw;
   text-align: center;
   font: bold 16px sans-serif;
   padding: 20px 50px 20px 50px;
   margin-top: 80px;
   display: flex;
+  flex-wrap: wrap;
+  position: relative;
 }
 .footerdistributed h3 {
   color: #32a171;
@@ -73,4 +75,39 @@
 }
 .textRight strong {
   font-size: small;
+}
+@media (max-width:992px){
+  .footerLeft{
+    width: 50%;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #8f9296;
+  }
+  .footerCenter{
+    width: 50%;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #8f9296;
+  }
+  .footerRight{
+    width: 100%;
+    padding-top: 10px;
+  }
+  
+}
+@media (max-width:576px) {
+  .footerLeft{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+  .footerCenter{
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+  }
+  .footerRight{
+    width: 80%;
+    margin: auto;
+  }
 }
