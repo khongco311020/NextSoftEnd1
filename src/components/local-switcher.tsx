@@ -58,8 +58,11 @@ export default function LocalSwitcher() {
       const currentPathWithoutLocale = pathname.replace(`/${localeActive}`, "");
 
       startTransition(() => {
-        // Chuyển hướng tới URL mới với ngôn ngữ được chọn
-        router.replace(`/${value}${currentPathWithoutLocale}`);
+        // Khi đổi ngôn ngữ giữ nguyên trang hiện tại
+        // router.replace(`/${value}${currentPathWithoutLocale}`);
+
+        //khi đổi ngôn ngữ trở về trang home
+        router.replace(`/${value}${"/"}`);
       });
     }
   };
