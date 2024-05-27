@@ -85,7 +85,7 @@ export default function Activities() {
             <h1 className="text-bold text-3xl text-green-600 text-center max-md:w-4/5 m-auto">
               {t("happy_hour_title")}
             </h1>
-            <p className="text-center w-3/6 m-auto max-md:w-4/5 m-auto">
+            <p className="text-center w-3/6 m-auto max-md:w-4/5 ">
               {t("happy_hour_description")}
             </p>
           </div>

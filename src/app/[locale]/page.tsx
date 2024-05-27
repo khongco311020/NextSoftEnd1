@@ -59,7 +59,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="background py-14 w-screen">
+      <div className="background py-14">
         <div className="container">
           <div className="grid grid-cols-2 gap-5 max-md:grid-cols-1">
             <div className="col-span-1">

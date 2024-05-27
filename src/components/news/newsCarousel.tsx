@@ -27,7 +27,7 @@ const Carousel = () => {
   // }, []);
 
   return (
-    <div className="w-screen">
+    <div>
       <div className="swiper-container  container">
       <h2 className="text-lg font-semibold text-green-600">Tin tức mới</h2>
       <Swiper

@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Button } from "@headlessui/react";
 import Link from "next/link";
 import Image from "next/image";
-import navbarDropDown from "../navbar/navbarDropdown";
+        
 const ButtonNN = ({ children }: { children: React.ReactNode }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isClick, setClick] = useState();
@@ -11,15 +11,18 @@ const ButtonNN = ({ children }: { children: React.ReactNode }) => {
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
+  const closeOverlay = () => {
+    setIsOpen(false);
+  }
 
   return (
     <div>
-      <Button className="dropdown text-2xl hidden" onClick={toggleDropdown}>
+      <Button className= {`dropdown text-2xl hidden ${isOpen ? "animation" : ""}`} onClick={toggleDropdown}>
         ☰
       </Button>
       {isOpen && (
         
-          
+          <div className="overlay fixed top-0 left-0 right-0 bottom-0 " onClick={closeOverlay}>
             <nav className="left-0 top-0 max-lg:w-80 h-screen bg-slate-50 z-50 fixed sidebar">
               <Link
                 href="/"
@@ -36,6 +39,8 @@ const ButtonNN = ({ children }: { children: React.ReactNode }) => {
               </Link>
               <div>{children}</div>
             </nav>
+            </div>
+
           
         
       )}
