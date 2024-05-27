@@ -2,44 +2,12 @@
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import  {useRouter}  from 'next/navigation';
-
-
-import { usePathname} from "next/navigation";
-import { Hash } from "crypto";
-import { url } from "inspector";
-import { useSearchParams } from "next/navigation";
-
 export default function ClientHeader({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const [isSticky, setIsSticky] = useState(false)
-  const [isChange, setIsChange] = useState(false)
-  const url = usePathname();
-  
-
-  useEffect(()=>{
-
-    if(url == "/vi") {
-      setIsChange(true)
-    }
-    else if(url == '/en') {
-      setIsChange(true)
-    }
-    else{
-      setIsChange(false)
-    }    
-  },[url])
-
-   
-  
-    
-
-   
-
-
+  const [isSticky, setIsSticky] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -66,7 +34,7 @@ export default function ClientHeader({
   
   return (
     <div
-      className={` fixed w-screen z-10 text-white  ${
+      className={` fixed w-full z-10 text-white  ${
         isSticky ? "bg-white shadow-lg !text-black" : ""
       }`}
     >
@@ -81,7 +49,7 @@ export default function ClientHeader({
               className="imglogo max-lg:w-10"
             />
             <h2
-              className={` font-semibold  ${isChange ? "hidden" : ""} ${isSticky ? "text-green-600 !block" : ""}`}
+              className={` font-semibold ${isSticky ? "text-green-600" : ""}`}
             >
               SkyNext Soft
             </h2>

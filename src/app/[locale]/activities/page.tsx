@@ -1,9 +1,16 @@
 import Carousel from "@/components/news/newsCarousel";
-import { useTranslations } from "next-intl";
+
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
+import RunningClub from "./RunningClub";
+import SoccerClub from "./SoccerClub";
+import HappyHour from "./HappyHour";
+import Link from "next/link";
 
 export default function Activities() {
   const t = useTranslations("ActivitiesPage");
+  const locale = useLocale();
+
   return (
     <div>
       <div className="">
@@ -12,7 +19,7 @@ export default function Activities() {
           alt=""
           width={1200}
           height={250}
-          className="relative w-full h-auto "
+          className="relative w-full h-auto"
         />
       </div>
 
@@ -83,6 +90,7 @@ export default function Activities() {
             </p>
           </div>
         </div>
+        <Carousel />
       </div>
       <div className="container pb-10">
         <h1 className="text-lg font-semibold text-green-600 py-5">
