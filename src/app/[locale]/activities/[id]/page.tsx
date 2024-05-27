@@ -15,6 +15,7 @@ export default function ActivityDetail() {
       <div>
         <span className="text-slate-400">{t(`date${id}`)}</span>
         <p>{t(`description${id}`)}</p>
+        <h2>{t(`kaka${id}`)}</h2>
       </div>
     </div>
   );
