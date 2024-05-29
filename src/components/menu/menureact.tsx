@@ -22,10 +22,7 @@ export default function MenuNavbar() {
   const menuMobile =
     locale === "vi" ? "Thiết kế App Mobile" : "Mobile App Design";
 
-    const route = useRouter()
-    const clickWebsite  = () =>{
-      route.replace('/item1')
-    }
+    
 
 
 

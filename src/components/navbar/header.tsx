@@ -15,15 +15,15 @@ export default function Header() {
 
   return (
     <ClientHeader>
-      <div className="w-3/4 header ">
-        <div className="flex justify-end gap-5  items-center w-full">
+      <div className="  ">
+        <div className="flex justify-end gap-5  items-center ">
           <DropDown />
-          <div className="flex justify-between items-center w-2/4  navbar">
+          <div className="flex justify-between items-center gap-10  navbar">
             <NavLink path="/" title={t("home")} />
             <NavLink path={`/${locale}/about`} title={t("about")} />
             {/* <NavLink path={`/${locale}/blog`} title={t("blog")} /> */}
             <NavLink path={`/${locale}/activities`} title={t("activities")} />
-            <NavLink path={`/${locale}/service`} title={t("service")}>
+            <NavLink path={`/${locale}/service`} title={t("service") }>
               <MenuNavbar />
             </NavLink>{" "}
           </div>

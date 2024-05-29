@@ -1,7 +1,7 @@
 .footerdistributed {
   background-color: #2d2a30;
   box-sizing: border-box;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   font: bold 16px sans-serif;
   padding: 20px 50px 20px 50px;
@@ -96,10 +96,14 @@
   
 }
 @media (max-width:576px) {
+  .footerdistributed{
+    padding: 20px 0px 20px 0px;
+  }
   .footerLeft{
     width: 80%;
     margin: auto;
     padding-bottom: 10px;
+    
   }
   .footerCenter{
     width: 80%;

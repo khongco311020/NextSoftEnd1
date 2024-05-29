@@ -27,9 +27,6 @@ export default function RootLayout({
   const messages = useMessages();
   return (
     <html lang={locale}>
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </head>
       <body className={inter.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <div className="flex flex-col min-h-screen  mx-auto">

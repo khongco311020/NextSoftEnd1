@@ -177,3 +177,12 @@ a {
 
   
 }
+.flex-grow{
+  width: 100%;
+}
+.overlay{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.animation{
+  transform: rotate(90deg);
+}
