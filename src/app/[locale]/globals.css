@@ -102,13 +102,87 @@ a {
     rgba(244, 246, 250, 0) 83.85%
   );
 }
-.imagebgg {
-  width: 100%;
-  height: auto;
-}
+
 .bgcolor {
   background-color: #344c7d;
 }
 .h-full {
   height: 533px;
+}
+@media (max-width:1080px) {
+  
+  .navbar{
+    width: 70%;
+  }
+  
+}
+@media (max-width:992px) {
+ 
+  .dropdown{
+    display: block;
+  }
+  .navbar{
+    display: none;
+    
+  
+  }
+  .header{
+    width: 50%;
+  }
+  .container{
+    width: 95%;
+  }
+  .grid-cols-4{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+}
+.right-1{
+  right: 3%
+  ;
+}
+
+@media(max-width:450px) {
+  .grid-cols-4{
+    grid-template-columns: repeat(1, minmax(0, 1fr))!important; 
+  }
+  .container{
+    width: 70%;
+  }
+  .grid-cols-3{
+    grid-template-columns: repeat(1, minmax(0, 1fr))!important; 
+  }
+  .max-md\:col-span-2{
+    grid-column: span 1/ span 1 !important; 
+  }
+  .max-md\:w-2\/4{
+    width: 100% !important;
+
+  }
+  .grid-cols-2{
+    grid-template-columns: repeat(1, minmax(0, 1fr))!important; 
+  }
+  
+}
+@media (max-width:500px) {
+
+  .sidebar{
+    max-width: 250px;
+  }
+}
+@media (max-width:425px) {
+  .sidebar{
+    max-width: 200px;
+  }
+
+  
+}
+.flex-grow{
+  width: 100%;
+}
+.overlay{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.animation{
+  transform: rotate(90deg);
 }

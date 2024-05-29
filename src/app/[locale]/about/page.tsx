@@ -21,30 +21,30 @@ export default function About() {
       />
       <div className="py-14 flex flex-col gap-5">
         <div className="container">
-          <h1 className="text-center text-3xl font-semibold text-green-600 mb-8">
+          <h1 className="text-center text-3xl w-3/6 font-semibold text-green-600 mb-8 max-md:w-4/5 m-auto">
             {t("companyName")}
           </h1>
-          <p className="text-center w-3/6 m-auto pb-10">
+          <p className="text-center  m-auto pb-10 w-4/5 ">
             {t("companyDescription")}
           </p>
-          <div className={styles.boxes}>
-            <div className={styles.box}>
+          <div className=" grid grid-cols-3 max-md:grid-cols-2 justify-self-center gap-5">
+            <div className="col-span-1 flex flex-col gap-5 items-center">
               <div className={styles.boxImg}>
                 <Image src="/quymo.svg" alt="" height={40} width={40} />
               </div>
-              <p>{t("workplace")}</p>
+              <p className="text-center ">{t("workplace")}</p>
             </div>
-            <div className={styles.box}>
+            <div className="col-span-1 flex flex-col gap-5 items-center">
               <div className={styles.boxImg}>
                 <Image src="/Japan.svg" alt="" height={40} width={40} />
               </div>
-              <p>{t("scale")}</p>
+              <p className="text-center ">{t("scale")}</p>
             </div>
-            <div className={styles.box}>
+            <div className="col-span-1 max-md:col-span-2 max-md:w-2/4 m-auto flex flex-col gap-5 items-center">
               <div className={styles.boxImg}>
                 <Image src="/edit-curves.svg" alt="" height={40} width={40} />
               </div>
-              <p>{t("training")}</p>
+              <p className="text-center ">{t("training")}</p>
             </div>
           </div>
         </div>
@@ -103,8 +103,8 @@ export default function About() {
           </div>
         </div> */}
 
-        <div className="container pt-10">
-          <div className="grid grid-cols-2">
+        <div className="container pt-10 ">
+          <div className="grid grid-cols-2 max-md:grid-cols-1 gap-5">
             <div className="col-span-1">
               <div className="">
                 <h2 className=" text-green-600 text-2xl pb-5">

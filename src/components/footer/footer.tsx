@@ -5,6 +5,7 @@ import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import FooterSocials from "./FooterSocials";
 import styles from "./footer.module.css";
 import { MdOutlineSettingsPhone } from "react-icons/md";
+import HomeIconn from "../home/homeIcon";
 
 export default function Footer() {
   const t = useTranslations("Footer");
